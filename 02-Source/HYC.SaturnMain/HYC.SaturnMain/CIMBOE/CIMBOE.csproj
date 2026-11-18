@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319.1</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB938434-F92E-4FC5-B657-27E6DF4170C7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CIMBOE</RootNamespace>
+    <AssemblyName>CIMBOE</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\Execute\HYC.SaturnMain\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HYC.HTFile, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTFile.1.0.0.7\lib\net452\HYC.HTFile.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTLog, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTLog.1.0.0.11\lib\net452\HYC.HTLog.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTTools, Version=1.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTTools.1.0.0.8\lib\net452\HYC.HTTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.3.3.11, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.3.3\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Args\CIMEventArgs.cs" />
+    <Compile Include="Block\AlarmStatusReportBlock.cs" />
+    <Compile Include="Block\AutoRecipeModeChangeReportBlock.cs" />
+    <Compile Include="Block\CimMessageConfirmBlock.cs" />
+    <Compile Include="Block\DummyGlassRequestReturnBlock.cs" />
+    <Compile Include="Block\FetchedOutJobDataBlock.cs" />
+    <Compile Include="Block\FetchedOutJobDataSubBlock.cs" />
+    <Compile Include="Block\IArrayAble.cs" />
+    <Compile Include="Block\CurrentPPIDRecipeIDReportBlock.cs" />
+    <Compile Include="Block\CurrentPPIDRecipeIDRequestReplyBlock.cs" />
+    <Compile Include="Block\GlassDataA.cs" />
+    <Compile Include="Block\JobDataChangeBlock.cs" />
+    <Compile Include="Block\JobDataRequestBlock.cs" />
+    <Compile Include="Block\JobDataRequestReplyBlock.cs" />
+    <Compile Include="Block\JobJudgeChangeReportBlock.cs" />
+    <Compile Include="Block\MachineDummyGlassRequestDataBlock.cs" />
+    <Compile Include="Block\MachineModeBlock.cs" />
+    <Compile Include="Block\MachineRecipeBlock.cs" />
+    <Compile Include="Block\NGPanelOutReportBlock.cs" />
+    <Compile Include="Block\PanelInformationReplyBlock.cs" />
+    <Compile Include="Block\PanelInformationRequestBlock.cs" />
+    <Compile Include="Block\PanelInformationUpdateBlock.cs" />
+    <Compile Include="Block\PPIDRecipeIDMapReportBlock.cs" />
+    <Compile Include="Block\ProcessEndBlock.cs" />
+    <Compile Include="Block\ProcessStartBlock.cs" />
+    <Compile Include="Block\ReceivedJobReportBlock.cs" />
+    <Compile Include="Block\CurrentRecipeBlock.cs" />
+    <Compile Include="Block\RecipeParameterDataBlock.cs" />
+    <Compile Include="Block\RemovedJobReportBlock.cs" />
+    <Compile Include="Block\RMSReportBlock.cs" />
+    <Compile Include="Block\SentOutJobReportBlock.cs" />
+    <Compile Include="Block\SentOutJobReport_DefectCodeBlock.cs" />
+    <Compile Include="Block\SentOutJobReport_PanelMaterialUsedReportBlock.cs" />
+    <Compile Include="Block\StoredJobDataBlock.cs" />
+    <Compile Include="Block\VCRModeBlock.cs" />
+    <Compile Include="Block\VCREventBlock.cs" />
+    <Compile Include="Block\VCRValidationRequestBlock.cs" />
+    <Compile Include="Block\VCRValidationRequestReplyBlock.cs" />
+    <Compile Include="BOECIMControl.cs" />
+    <Compile Include="Block\MachineStatusChangeReportBlock.cs" />
+    <Compile Include="Block\ProcessDataReportBlock.cs" />
+    <Compile Include="CCLink\CCLinkCard.cs" />
+    <Compile Include="CCLink\CCLinkHelper.cs" />
+    <Compile Include="CCLink\Mdfunc.cs" />
+    <Compile Include="Entities\CIMCommandMonitor.cs" />
+    <Compile Include="Config\CIMConfigEntity.cs" />
+    <Compile Include="Config\CIMConfigHelper.cs" />
+    <Compile Include="Interface\ICIMCommandHandler.cs" />
+    <Compile Include="Interface\ICIMData.cs" />
+    <Compile Include="Args\LinkSignalEventArgs.cs" />
+    <Compile Include="Entities\LinkSignalAddr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

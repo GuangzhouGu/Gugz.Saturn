@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2121B91F-B51E-4B41-AE1A-C57286FF8EB9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommonModule</RootNamespace>
+    <AssemblyName>CommonModule</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HYC.HTAlarm, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\HYC.HTAlarm.1.0.0.4\lib\net452\HYC.HTAlarm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HYC.HTDB, Version=1.1.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\HYC.HTDB.1.1.0.4\lib\net452\HYC.HTDB.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HYC.HTFile, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\HYC.PCBaseDemo\HYC.PCBaseDemo\packages\HYC.HTFile.1.0.0.2\lib\net452\HYC.HTFile.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTLog, Version=1.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\HYC.HTLog.1.0.0.8\lib\net452\HYC.HTLog.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="HYC.WindowsForms, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\HYC.WindowsForms.1.0.0.11\lib\net452\HYC.WindowsForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>packages\MySql.Data.6.10.9\lib\net452\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\lib\net46\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\CtrlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\CtrlBase.Designer.cs">
+      <DependentUpon>CtrlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PanelEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\PanelEx.Designer.cs">
+      <DependentUpon>PanelEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\YieldQueryCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\YieldQueryCtrl.Designer.cs">
+      <DependentUpon>YieldQueryCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\YieldMonitorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\YieldMonitorCtrl.Designer.cs">
+      <DependentUpon>YieldMonitorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\BaseDal.cs" />
+    <Compile Include="DB\CommDbManager.cs" />
+    <Compile Include="Controls\EfficencyMonitorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EfficencyMonitorCtrl.Designer.cs">
+      <DependentUpon>EfficencyMonitorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PerformanceMonitorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PerformanceMonitorCtrl.Designer.cs">
+      <DependentUpon>PerformanceMonitorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\Dal\CellStartTimeDal.cs" />
+    <Compile Include="DB\Dal\DetectResultDal.cs" />
+    <Compile Include="DB\Dal\DeviceStartTimeDal.cs" />
+    <Compile Include="DB\Dal\EqpHistoryDal.cs" />
+    <Compile Include="DB\Dal\HeartbeatDal.cs" />
+    <Compile Include="DB\Dal\OpRecordDal.cs" />
+    <Compile Include="DB\Dal\ParamRecordDal.cs" />
+    <Compile Include="DB\Dal\ProgramExceptionDal.cs" />
+    <Compile Include="DB\Dal\RecipeInfoDal.cs" />
+    <Compile Include="DB\Dal\UserDal.cs" />
+    <Compile Include="Entities\LangHelper.cs" />
+    <Compile Include="Entities\CommonHelper.cs" />
+    <Compile Include="Entities\EqpStatusManager.cs" />
+    <Compile Include="Entities\PerformanceManager.cs" />
+    <Compile Include="DB\Model\CellStartTime.cs" />
+    <Compile Include="DB\Model\DetectResultModel.cs" />
+    <Compile Include="DB\Model\DeviceStartTime.cs" />
+    <Compile Include="DB\Model\EqpHistoryModel.cs" />
+    <Compile Include="DB\Model\HeartbeatModel.cs" />
+    <Compile Include="DB\Model\OpRecordModel.cs" />
+    <Compile Include="DB\Model\ParamRecordModel.cs" />
+    <Compile Include="DB\Model\ProgramExceptionModel.cs" />
+    <Compile Include="DB\Model\RecipeInfoModel.cs" />
+    <Compile Include="DB\Model\UserModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\EfficencyMonitorCtrl.en-US.resx">
+      <DependentUpon>EfficencyMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EfficencyMonitorCtrl.resx">
+      <DependentUpon>EfficencyMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PerformanceMonitorCtrl.en-US.resx">
+      <DependentUpon>PerformanceMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PerformanceMonitorCtrl.resx">
+      <DependentUpon>PerformanceMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\YieldMonitorCtrl.en-US.resx">
+      <DependentUpon>YieldMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\YieldQueryCtrl.resx">
+      <DependentUpon>YieldQueryCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\YieldMonitorCtrl.resx">
+      <DependentUpon>YieldMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="alarm.sql" />
+    <Content Include="Dlls\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="en-US\HYC.WindowsForms.resources.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

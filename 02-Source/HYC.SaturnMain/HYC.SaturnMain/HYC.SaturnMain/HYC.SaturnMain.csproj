@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85E5F223-6422-4708-BB8B-1534027BEC73}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HYC.SaturnMain</RootNamespace>
+    <AssemblyName>HYC.SaturnMain</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\Execute\HYC.SaturnMain\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AGauge, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\AGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="DataHelper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DataHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTAlarm, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Saturn\HYC.HTAlarm.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTCamera.GigE, Version=1.0.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Saturn\HYC.HTCamera.GigE.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTCard, Version=1.0.0.15, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Saturn\HYC.HTCard.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTCommunication, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTCommunication.1.0.0.9\lib\net452\HYC.HTCommunication.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTDB, Version=1.1.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Saturn\HYC.HTDB.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTFile, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTFile.1.0.0.3\lib\net452\HYC.HTFile.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTImage, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTImage.1.0.0.5\lib\net452\HYC.HTImage.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTLog, Version=1.0.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTLog.1.0.0.9\lib\net452\HYC.HTLog.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTModbus, Version=1.0.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Saturn\HYC.HTModbus.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTPCBase, Version=1.1.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Execute\HYC.SaturnMain\HYC.HTPCBase.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTPCBase.Extension, Version=1.1.0.9, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Execute\HYC.SaturnMain\HYC.HTPCBase.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTPower, Version=1.1.0.6, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\HYC.SaturnMain\HYC.HTPower.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTSystem, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTSystem.1.0.0.2\lib\net45\HYC.HTSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTTools, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTTools.1.0.0.5\lib\net452\HYC.HTTools.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.WindowsForms, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.WindowsForms.1.0.0.11\lib\net452\HYC.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.3.3.11, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.3.3\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.10.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.10.9\lib\net452\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Execute\Saturn\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3D\DirectXRender.cs" />
+    <Compile Include="3D\ModelList.cs" />
+    <Compile Include="Alarm\AlarmInfo.cs" />
+    <Compile Include="AutoPos\AlignSignalProvider.cs" />
+    <Compile Include="CabinetInfos\CabinetRowInfo.cs" />
+    <Compile Include="CabinetInfos\CabinetInfoHelper.cs" />
+    <Compile Include="Devices\Cim\CimManager.cs" />
+    <Compile Include="Devices\ClientPC\DFSHelper.cs" />
+    <Compile Include="Devices\HTCameras\HTCamera.cs" />
+    <Compile Include="Devices\HTCameras\HTCameraHelper.cs" />
+    <Compile Include="Devices\HTCameras\HTCameraInfo.cs" />
+    <Compile Include="Devices\MasterPC\ServerInfo.cs" />
+    <Compile Include="Devices\Panasonic\MotorInfo.cs" />
+    <Compile Include="Devices\Panasonic\PanasonicHelper.cs" />
+    <Compile Include="Devices\Power\PowerControl.cs" />
+    <Compile Include="Devices\Power\PowerHelper.cs" />
+    <Compile Include="Devices\Power\PowerInfo.cs" />
+    <Compile Include="Devices\StaticElec\StaticElecControl.cs" />
+    <Compile Include="Devices\StaticElec\StaticElecHelper.cs" />
+    <Compile Include="Devices\StaticElec\StaticElecInfo.cs" />
+    <Compile Include="Devices\Laser\LaserInfo.cs" />
+    <Compile Include="Devices\Laser\LaserHelper.cs" />
+    <Compile Include="Devices\Rfid\RfidInfo.cs" />
+    <Compile Include="Devices\Rfid\RfidHelper.cs" />
+    <Compile Include="Devices\Rfid\RfidControl.cs" />
+    <Compile Include="Entities\AutoPosInfo.cs" />
+    <Compile Include="Entities\CurrentDetectInfo.cs" />
+    <Compile Include="Entities\SVDataLoad.cs" />
+    <Compile Include="Entities\ContactCamManager.cs" />
+    <Compile Include="Entities\ConvertHelper.cs" />
+    <Compile Include="Entities\DBManager.cs" />
+    <Compile Include="Entities\MotorInfo.cs" />
+    <Compile Include="Entities\SequenceStepManager.cs" />
+    <Compile Include="Params\CamBasePointPara.cs" />
+    <Compile Include="Params\GlassMapPara.cs" />
+    <Compile Include="ProbeCardInfos\ProbeCardHelper.cs" />
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Params\AlignPara.cs" />
+    <Compile Include="Params\CimPara.cs" />
+    <Compile Include="Params\ParaType.cs" />
+    <Compile Include="Params\DetectPara.cs" />
+    <Compile Include="Params\ThreeDPara.cs" />
+    <Compile Include="Params\CommPara.cs" />
+    <Compile Include="Params\ControlPara.cs" />
+    <Compile Include="Params\MotionPara.cs" />
+    <Compile Include="Params\PanelPara.cs" />
+    <Compile Include="Params\UvwPosInfo.cs" />
+    <Compile Include="Detections\DetectionHelper.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmAutoPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmAutoPos.Designer.cs">
+      <DependentUpon>FrmAutoPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmAutoPosTeach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmAutoPosTeach.Designer.cs">
+      <DependentUpon>FrmAutoPosTeach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmBaseTeach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmBaseTeach.Designer.cs">
+      <DependentUpon>FrmBaseTeach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmLinkSignal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmLinkSignal.Designer.cs">
+      <DependentUpon>FrmLinkSignal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmCimMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmCimMsg.Designer.cs">
+      <DependentUpon>FrmCimMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmContactCamera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmContactCamera.Designer.cs">
+      <DependentUpon>FrmContactCamera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmGlassCrds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmGlassCrds.Designer.cs">
+      <DependentUpon>FrmGlassCrds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmPM.Designer.cs">
+      <DependentUpon>FrmPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmPrbAutoChangeTip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmPrbAutoChangeTip.Designer.cs">
+      <DependentUpon>FrmPrbAutoChangeTip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmRecipeProbeConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmRecipeProbeConfig.Designer.cs">
+      <DependentUpon>FrmRecipeProbeConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmUpdateProbeSts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmUpdateProbeSts.Designer.cs">
+      <DependentUpon>FrmUpdateProbeSts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DateTimeSelectCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DateTimeSelectCtrl.Designer.cs">
+      <DependentUpon>DateTimeSelectCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GlassMapCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\GlassMapCtrl.Designer.cs">
+      <DependentUpon>GlassMapCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LaserCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LaserCtrl.Designer.cs">
+      <DependentUpon>LaserCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LinkSignalCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LinkSignalCtrl.Designer.cs">
+      <DependentUpon>LinkSignalCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devices\Cim\LinkSignals.cs" />
+    <Compile Include="Devices\Cim\LinkSignalFlow.cs" />
+    <Compile Include="Devices\ClientPC\AoiPC.cs" />
+    <Compile Include="Devices\ClientPC\TesterPC.cs" />
+    <Compile Include="Devices\MasterPC\MasterPCHelper.cs" />
+    <Compile Include="MotionInfo\MotionEnum.cs" />
+    <Compile Include="Devices\Scaner\ScanerControl.cs" />
+    <Compile Include="Devices\Scaner\ScanerHelper.cs" />
+    <Compile Include="Devices\Scaner\ScanerInfo.cs" />
+    <Compile Include="Entities\BasePointHelper.cs" />
+    <Compile Include="Entities\ProcessCmd.cs" />
+    <Compile Include="Entities\MessageInfo.cs" />
+    <Compile Include="Entities\PcMsgStruct.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="GlassCrds\GlassCrdHelper.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Station\PrbAutoChg.cs" />
+    <Compile Include="Station\Cabinet.cs" />
+    <Compile Include="Station\DetectGantry.cs" />
+    <Compile Include="Station\DualStage.cs" />
+    <Compile Include="Station\ProbeGantry.cs" />
+    <Compile Include="Entities\InterlockMonitor.cs" />
+    <Compile Include="Station\UvwStage.cs" />
+    <Compile Include="SubForms\FrmCabinet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmCabinet.Designer.cs">
+      <DependentUpon>FrmCabinet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmProbeCardEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmProbeCardEdit.Designer.cs">
+      <DependentUpon>FrmProbeCardEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmCamBasePoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmCamBasePoint.Designer.cs">
+      <DependentUpon>FrmCamBasePoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmCheck.Designer.cs">
+      <DependentUpon>FrmCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmDirectX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmDirectX.Designer.cs">
+      <DependentUpon>FrmDirectX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmAuto.Designer.cs">
+      <DependentUpon>FrmAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmPanelIDKeyIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmPanelIDKeyIn.Designer.cs">
+      <DependentUpon>FrmPanelIDKeyIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmQuery.Designer.cs">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\FrmSysMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\FrmSysMonitor.Designer.cs">
+      <DependentUpon>FrmSysMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CabinetCellCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\CabinetCellCtrl.Designer.cs">
+      <DependentUpon>CabinetCellCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MotionControllerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MotionControllerCtrl.Designer.cs">
+      <DependentUpon>MotionControllerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PcCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PcCtrl.Designer.cs">
+      <DependentUpon>PcCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PowerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\PowerCtrl.Designer.cs">
+      <DependentUpon>PowerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RfidCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\RfidCtrl.Designer.cs">
+      <DependentUpon>RfidCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ScanerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ScanerCtrl.Designer.cs">
+      <DependentUpon>ScanerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SequenceStepInfoCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SequenceStepInfoCtrl.Designer.cs">
+      <DependentUpon>SequenceStepInfoCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HTCameraCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HTCameraCtrl.Designer.cs">
+      <DependentUpon>HTCameraCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HistoryQueryCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HistoryQueryCtrl.Designer.cs">
+      <DependentUpon>HistoryQueryCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StaticElecCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\StaticElecCtrl.Designer.cs">
+      <DependentUpon>StaticElecCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\YieldMonitorCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\YieldMonitorCtrl.Designer.cs">
+      <DependentUpon>YieldMonitorCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ZeroSysCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ZeroSysCtrl.Designer.cs">
+      <DependentUpon>ZeroSysCtrl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SubForms\FrmAutoPos.resx">
+      <DependentUpon>FrmAutoPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmAutoPosTeach.resx">
+      <DependentUpon>FrmAutoPosTeach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmBaseTeach.resx">
+      <DependentUpon>FrmBaseTeach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmLinkSignal.resx">
+      <DependentUpon>FrmLinkSignal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmCimMsg.resx">
+      <DependentUpon>FrmCimMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmContactCamera.resx">
+      <DependentUpon>FrmContactCamera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmGlassCrds.resx">
+      <DependentUpon>FrmGlassCrds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmPM.resx">
+      <DependentUpon>FrmPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmPrbAutoChangeTip.resx">
+      <DependentUpon>FrmPrbAutoChangeTip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmRecipeProbeConfig.resx">
+      <DependentUpon>FrmRecipeProbeConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmUpdateProbeSts.resx">
+      <DependentUpon>FrmUpdateProbeSts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DateTimeSelectCtrl.resx">
+      <DependentUpon>DateTimeSelectCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\GlassMapCtrl.resx">
+      <DependentUpon>GlassMapCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\LaserCtrl.resx">
+      <DependentUpon>LaserCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\LinkSignalCtrl.resx">
+      <DependentUpon>LinkSignalCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmCabinet.resx">
+      <DependentUpon>FrmCabinet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmCamBasePoint.resx">
+      <DependentUpon>FrmCamBasePoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmCheck.resx">
+      <DependentUpon>FrmCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmDirectX.resx">
+      <DependentUpon>FrmDirectX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmAuto.resx">
+      <DependentUpon>FrmAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmPanelIDKeyIn.resx">
+      <DependentUpon>FrmPanelIDKeyIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmProbeCardEdit.resx">
+      <DependentUpon>FrmProbeCardEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmQuery.resx">
+      <DependentUpon>FrmQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\FrmSysMonitor.resx">
+      <DependentUpon>FrmSysMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\CabinetCellCtrl.resx">
+      <DependentUpon>CabinetCellCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MotionControllerCtrl.resx">
+      <DependentUpon>MotionControllerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PcCtrl.resx">
+      <DependentUpon>PcCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\PowerCtrl.resx">
+      <DependentUpon>PowerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\RfidCtrl.resx">
+      <DependentUpon>RfidCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ScanerCtrl.resx">
+      <DependentUpon>ScanerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SequenceStepInfoCtrl.resx">
+      <DependentUpon>SequenceStepInfoCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HTCameraCtrl.resx">
+      <DependentUpon>HTCameraCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HistoryQueryCtrl.resx">
+      <DependentUpon>HistoryQueryCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\StaticElecCtrl.resx">
+      <DependentUpon>StaticElecCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\YieldMonitorCtrl.resx">
+      <DependentUpon>YieldMonitorCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ZeroSysCtrl.en-US.resx">
+      <DependentUpon>ZeroSysCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ZeroSysCtrl.resx">
+      <DependentUpon>ZeroSysCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ZeroSysCtrl.zh.resx">
+      <DependentUpon>ZeroSysCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="alarm.sql" />
+    <Content Include="Config\ApsParameters.xml" />
+    <Content Include="DLL\ACS.SPiiPlusNET.dll" />
+    <Content Include="DLL\AdvMotAPI.dll" />
+    <Content Include="DLL\APS168.dll" />
+    <Content Include="DLL\gts.dll" />
+    <Content Include="DLL\LTSMC.dll" />
+    <Content Include="DLL\TwinCAT.Ads.dll" />
+    <Content Include="en-US\HYC.WindowsForms.resources.dll" />
+    <Content Include="logo.ico" />
+    <None Include="Pictures\俯视图.png" />
+    <None Include="Pictures\EmgBlue.png" />
+    <None Include="Pictures\EmgRed.png" />
+    <None Include="Pictures\glassMap.PNG" />
+    <None Include="Pictures\col.png" />
+    <None Include="Pictures\3D.png" />
+    <None Include="Pictures\AutoPos.png" />
+    <None Include="Pictures\Cabinet.png" />
+    <None Include="Pictures\Cim.png" />
+    <None Include="Pictures\Detect.png" />
+    <None Include="Pictures\DeviceCheck.png" />
+    <None Include="Pictures\DetectGantry.png" />
+    <None Include="Pictures\DetectProbeGantry.png" />
+    <Content Include="Pictures\Lock.png" />
+    <None Include="Pictures\safeDoorClose.png" />
+    <None Include="Pictures\safeDoorOpen.png" />
+    <None Include="Pictures\ProbeGantry.png" />
+    <None Include="Pictures\Query.png" />
+    <None Include="Pictures\SafeMonitor.png" />
+    <None Include="Pictures\off.png" />
+    <None Include="Pictures\on.png" />
+    <Content Include="Pictures\unLock.png" />
+    <None Include="Pictures\Glass图片.png" />
+    <None Include="Pictures\Green2.png" />
+    <None Include="Pictures\Gray2.png" />
+    <None Include="Pictures\ProbeCard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ThirdPartDll\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CIMBOE\CIMBOE.csproj">
+      <Project>{bb938434-f92e-4fc5-b657-27e6df4170c7}</Project>
+      <Name>CIMBOE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition\HYC.AutoPosition.Extentions\HYC.AutoPosition.Extentions.csproj">
+      <Project>{340f3955-31d7-4099-89d5-108cb27158d5}</Project>
+      <Name>HYC.AutoPosition.Extentions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition\HYC.AutoPosition.ImageProcess\HYC.AutoPosition.ImageProcess.csproj">
+      <Project>{9343b115-8344-465a-a9ac-c930f018e563}</Project>
+      <Name>HYC.AutoPosition.ImageProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition\HYC.AutoPosition.UI\HYC.AutoPosition.UI.csproj">
+      <Project>{31504d1f-a2a9-42f3-a473-d566733a4e75}</Project>
+      <Name>HYC.AutoPosition.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition\HYC.AutoPosition\HYC.AutoPosition.csproj">
+      <Project>{a68a009f-c082-474e-a1c7-8aedcc0120d9}</Project>
+      <Name>HYC.AutoPosition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.SaturnDB\HYC.SaturnDB.csproj">
+      <Project>{255b7681-55f6-45ad-b1cf-d7a3e5fc17e1}</Project>
+      <Name>HYC.SaturnDB</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

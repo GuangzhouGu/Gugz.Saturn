@@ -1,0 +1,3422 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.AutoPosition.UI</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.AutoPosition.UI.Controls.GrabEventArgs">
+            <summary>
+            拍照事件参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.GrabEventArgs.GroupName">
+            <summary>
+            组的名称
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.LiveEventArgs">
+            <summary>
+            实时事件参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.LiveEventArgs.GroupName">
+            <summary>
+            组的名称
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.LiveEventArgs.IsSetToLive">
+            <summary>
+            是否切换到Live模式
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.DevStatusIndicator">
+            <summary>
+            单个组件的状态指示控件
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.DevStatusIndicator.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.DevStatusIndicator.DevName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.DevStatusIndicator.Status">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.DevStatusIndicator.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.DevStatusIndicator.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.DevStatusIndicator.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.DevStatusPanel">
+            <summary>
+            所有组件的状态指示控件
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.DevStatusPanel.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.DevStatusPanel.UpdateDeviceState(System.String,System.String,System.Nullable{System.Boolean})">
+            <summary>
+            更新状态显示
+            </summary>
+            <param name="ctrlName">控件名</param>
+            <param name="devName">组件名</param>
+            <param name="status">状态</param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.ImageViewBox">
+            <summary>
+            图像显示控件
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.ImageViewBox.CameraCount">
+            <summary>
+            一组对位中的相机数量
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.ImageViewBox.Images">
+            <summary>
+            获取控件中的图像
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.ImageViewBox.GroupName">
+            <summary>
+            组的名称
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.ShowImage(System.Drawing.Image[])">
+            <summary>
+            显示图像
+            </summary>
+            <param name="imgs">图像数据数组</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.ShowImage(System.Int32,System.Drawing.Image)">
+            <summary>
+            显示图像
+            </summary>
+            <param name="index">序号</param>
+            <param name="img">图像</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.ShowXYT(System.Double[])">
+            <summary>
+            显示XYT值
+            </summary>
+            <param name="xyt">xyt运动数据</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.btnGrab_Click(System.Object,System.EventArgs)">
+            <summary>
+            拍照
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.chkLive_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            实时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="E:HYC.AutoPosition.UI.Controls.ImageViewBox.GrabRequest">
+            <summary>
+            拍照请求
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.UI.Controls.ImageViewBox.LiveRequest">
+            <summary>
+            实时请求
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.ImageViewBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.ImageViewBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.MessageListBox">
+            <summary>
+            消息显示列表框
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.MessageListBox.SelectionBackColor">
+            <summary>
+            选定项背景色
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            重绘
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+            <summary>
+            重绘列表项
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.AddMessage(System.String,System.Drawing.Brush)">
+            <summary>
+            向列表中添加消息
+            </summary>
+            <param name="strMsg"></param>
+            <param name="brush"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.MessageListBox.MessageItem">
+            <summary>
+            列表项
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.MessageListBox.MessageItem.Message">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.MessageListBox.MessageItem.Brush">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.MessageListBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.MessageListBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.NavigateButton">
+            <summary>
+            导航按钮
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.NavigateButton.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.NavigateButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            重绘
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.NavigateButton.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.NavigateButton.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.NavigateButton.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.RecipeListBox">
+            <summary>
+            机种显示列表框
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.RecipeListBox.SelectionBackColor">
+            <summary>
+            选定项背景色
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.RecipeListBox.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.RecipeListBox.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            重绘
+            </summary>
+            <param name="pe"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.RecipeListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)">
+            <summary>
+            重绘列表项
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.RecipeListBox.components">
+            <summary>
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.RecipeListBox.Dispose(System.Boolean)">
+            <summary>
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.RecipeListBox.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.FormMarkModify.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.FormMarkModify.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.FormMarkModify.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.FormOriginView.DrawRuler(System.Drawing.Size)">
+            <summary>
+            画卡尺
+            </summary>
+            <param name="size"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.FormOriginView.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.FormOriginView.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.FormOriginView.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.ImageSize">
+            <summary>
+            获取当前Image尺寸
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.Clear(System.Drawing.Color)">
+            <summary>
+            
+            </summary>
+            <param name="color"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.RealSize">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawRectangle(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            
+            </summary>
+            <param name="pen"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawRectangleCorner(System.Drawing.Pen,System.Drawing.Rectangle)">
+            <summary>
+            绘制带顶角的Rect
+            </summary>
+            <param name="pen"></param>
+            <param name="rect"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawLine(System.Drawing.Pen,System.Drawing.Point,System.Drawing.Point)">
+            <summary>
+            
+            </summary>
+            <param name="pen"></param>
+            <param name="sp"></param>
+            <param name="ep"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawCenterLine(System.Drawing.Pen)">
+            <summary>
+            绘画十字线
+            </summary>
+            <param name="pen"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawCrossLine(System.Drawing.Pen,System.Drawing.Point)">
+            <summary>
+            绘画十字交叉线线
+            </summary>
+            <param name="pen"></param>
+            <param name="centerPoint">中心点</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawLine(System.Drawing.Pen,System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            
+            </summary>
+            <param name="pen"></param>
+            <param name="sp"></param>
+            <param name="ep"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.DrawString(System.String,System.Drawing.Font,System.Drawing.Brush,System.Single,System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="s"></param>
+            <param name="font"></param>
+            <param name="brush"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.LayerControl.Image">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.LayerControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.LayerControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.CurrentGroupIndex">
+            <summary>
+            当前选择Group
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.GroupConfig">
+            <summary>
+            当前选择GroupConfig
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.CurrentStageIndex">
+            <summary>
+            当前选择Stage
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.drawLayer_DoubleClick(System.Object,System.EventArgs)">
+            <summary>
+            变更大小
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.bDrawCenterCross">
+            <summary>
+            显示十字中心线
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnOrignView_Click(System.Object,System.EventArgs)">
+            <summary>
+            显示原始图
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.Grab(HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.CameraSource)">
+            <summary>
+            采集图片
+            </summary>
+            <param name="cameraSource"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnTestFind_Click(System.Object,System.EventArgs)">
+            <summary>
+            测试找Mark
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnTestFindAll_Click(System.Object,System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.TestFind(System.Drawing.Bitmap,System.Drawing.Bitmap,HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.CameraSource,System.Double[]@)">
+            <summary>
+            图片对位
+            </summary>
+            <param name="templateImage"></param>
+            <param name="srcImage"></param>
+            <param name="cameraSource"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.SaveROIInfo(DrawTools.DrawToolControl,HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.CameraSource)">
+            <summary>
+            保存ROI以及Template信息
+            </summary>
+            <param name="drawToolControl"></param>
+            <param name="cameraSource"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnTestAlignment_Click(System.Object,System.EventArgs)">
+            <summary>
+            测试对位
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="E:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.GrabRequest">
+            <summary>
+            拍照请求
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.LiveRequest">
+            <summary>
+            实时请求
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.AlignParameterInitGUI">
+            <summary>
+            初始化Align 参数设置
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnMatchingRateLimitSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            Matching Rate Limit 保存
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnAlignLimitSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            对位极限保存
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnAlignOptionSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            对位选项保存
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnCameraInfoSave_Click(System.Object,System.EventArgs)">
+            <summary>2
+            ±£´æCamera²ÎÊý
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnCalOptionSave_Click(System.Object,System.EventArgs)">
+            <summary>2
+            ±£´æCamera²ÎÊý
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnAutoCalibration_Click(System.Object,System.EventArgs)">
+            <summary>
+            Calibration
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.AutoCalibrationProcess(System.Int32,HYC.AutoPosition.Interface.IMoveExecutor)">
+            <summary>
+            ×Ô¶¯±ê¶¨Á÷³Ì ÒÆ¶¯X -deltaX ºó 2*deltaX  ÒÆ¶¯Y  ÏÈ-deltaY ºó2*deltaY
+            </summary>
+            <param name="dir">Left or Right Cam</param>
+            <param name="executor">MoveExecutor</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.btnResultSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            ½á¹û±£´æ
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.ValueIsValid(System.String,System.Double@)">
+            <summary>
+            È·ÈÏÊý¾Ý¸ñÊ½ÊÇ·ñ·ûºÏÒªÇó
+            </summary>
+            <param name="value"></param>
+            <param name="dValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.SetTlpRowHeight(System.Windows.Forms.TableLayoutPanel,System.Int32,System.Single)">
+            <summary>
+            设置TableLayoutPanel指定行的高度
+            </summary>
+            <param name="layout"></param>
+            <param name="row"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.SetTlpColWidth(System.Windows.Forms.TableLayoutPanel,System.Int32,System.Single)">
+            <summary>
+            设置TableLayoutPanel指定行的宽度
+            </summary>
+            <param name="layout"></param>
+            <param name="col"></param>
+            <param name="width"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.GetTlpRowHeight(System.Windows.Forms.TableLayoutPanel,System.Int32)">
+            <summary>
+            获取Tablayout的行高
+            </summary>
+            <param name="layout"></param>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.TemplateMatchingSetting.GetTlpColWidth(System.Windows.Forms.TableLayoutPanel,System.Int32)">
+            <summary>
+            获取TableLayoutPanel指定列的宽度
+            </summary>
+            <param name="layout">TableLayoutPanel</param>
+            <param name="col">行号</param>
+            <returns>行宽</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Controls.UcGroupConfig">
+            <summary>
+            单组对位的设置项控件
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Controls.UcGroupConfig.Config">
+            <summary>
+            单组对位的设置
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.GetGroupConfig">
+            <summary>
+            从界面获取设置
+            </summary>
+            <returns>单组设置</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.SetGroupConfig(HYC.AutoPosition.UI.GroupConfig)">
+            <summary>
+            更新设置到界面
+            </summary>
+            <param name="cfg">单组设置</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.btnDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            移除对位组
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.chkCameraEnable1_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            相机1选中状态改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.chkCameraEnable2_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            相机2选中状态改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Controls.UcGroupConfig.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Controls.UcGroupConfig.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.LogManager">
+            <summary>
+            日志管理类
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.LogManager.GetLogger(System.String)">
+            <summary>
+            获取指定的Log对象
+            </summary>
+            <param name="name">文件夹名称</param>
+            <returns>日志对象</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.LogManager.DeleteOldLog(System.Int32)">
+            <summary>
+            以最后修改时间为依据，删除超过指定天数之前的Log
+            </summary>
+            <param name="days">要保留的Log的天数</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.LogManager.DeleteLog(System.Int32,System.IO.DirectoryInfo)">
+            <summary>
+            删除日志
+            </summary>
+            <param name="days"></param>
+            <param name="info"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.Logger">
+            <summary>
+            日志对象
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.Logger.#ctor(System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="folder"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.Logger.Info(System.String)">
+            <summary>
+            记录Info类型的消息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.Logger.Error(System.String)">
+            <summary>
+            记录Error类型的消息
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.Logger.Error(System.Exception)">
+            <summary>
+            记录Error类型的异常
+            </summary>
+            <param name="ex"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.ShowLiveImage">
+            <summary>
+            显示图像的委托
+            </summary>
+            <param name="data">图像数据</param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.PosCamera">
+            <summary>
+            对位相机管理类
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.PosCamera.CameraCount">
+            <summary>
+            相机数
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.PosCamera.cameras">
+            <summary>
+            相机的数组
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.PosCamera.imageDatas">
+            <summary>
+            图像数据
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.PosCamera_ShowMsg(System.Object,HYC.HTCamera.GigE.HTCameraShowMsgEventArgs)">
+            <summary>
+            处理相机内部消息
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.ReInit">
+            <summary>
+            相机重连线程
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.Camera_ConnectionChanged(System.Object,HYC.HTCamera.GigE.HTCameraEventArgs)">
+            <summary>
+            连接状态改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.UpdateCameraStatus">
+            <summary>
+            更新界面相机状态
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.Camera_ImageReceived(System.Object,HYC.HTCamera.GigE.HTCameraEventArgs)">
+            <summary>
+            接收到图像数据
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.Grab(System.Int32)">
+            <summary>
+            拍照
+            </summary>
+            <param name="index">相机序号</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.Live(System.Int32,System.Boolean,HYC.AutoPosition.UI.Entities.ShowLiveImage)">
+            <summary>
+            实时
+            </summary>
+            <param name="index">相机序号</param>
+            <param name="isSetToLive">是否设置成实时模式</param>
+            <param name="method">显示图像的委托</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.SetExposureTime(System.Int32,System.Single)">
+            <summary>
+            设置曝光时间
+            </summary>
+            <param name="index">相机序号</param>
+            <param name="millisecond">曝光值，毫秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.GetCamera(System.String)">
+            <summary>
+            获取指定Mac地址的相机
+            </summary>
+            <param name="macAddr">Mac地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.GetCameraIndex(System.String)">
+            <summary>
+            获取指定Mac地址的相机的序号
+            </summary>
+            <param name="macAddr">Mac地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosCamera.UnInit">
+            <summary>
+            断开连接，释放资源
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.PosPlatform">
+            <summary>
+            对位平台管理类
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.Init">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.Manager_StatusUpdate(System.Object,HYC.HTXYT.Base.XYTEventArgs)">
+            <summary>
+            处理平台状态改变事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.Manager_SettingChanged(System.Object,HYC.HTXYT.Base.XYTSettingEventArgs)">
+            <summary>
+            处理对位平台设置变化事件，将对位平台参数保存到文件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.GetPlatform(System.String)">
+            <summary>
+            获取指定名称的平台
+            </summary>
+            <param name="name">平台的名称标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.UpdateSafetyFlag(System.String,System.Boolean)">
+            <summary>
+            更新安全条件
+            </summary>
+            <param name="name">平台的名称标识</param>
+            <param name="isSafeToMove">移动是否安全</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.IsSafeToMove(System.String)">
+            <summary>
+            平台的移动是否安全
+            </summary>
+            <param name="name">平台的名称标识</param>
+            <returns>移动是否安全</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosPlatform.UnInit">
+            <summary>
+            断开连接，释放资源
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.PosSignal">
+            <summary>
+            信号提供者管理类
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.SetSignalProvider(HYC.AutoPosition.Interface.ISignalProvider)">
+            <summary>
+            外部传入ISignalProvider实例
+            </summary>
+            <param name="provider">ISignalProvider实例</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.GetSignalProvider">
+            <summary>
+            获取ISignalProvider实例
+            </summary>
+            <returns>ISignalProvider实例</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.SignalProvider_AutoPosRequest(System.Object,HYC.AutoPosition.Interface.RequestEventArgs)">
+            <summary>
+            自动对位请求
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.SignalProvider_CalibrationRequest(System.Object,HYC.AutoPosition.Interface.RequestEventArgs)">
+            <summary>
+            自动标定请求
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.SignalProvider_MoveRequest(System.Object,HYC.AutoPosition.Interface.MoveReqEventArgs)">
+            <summary>
+            运动请求
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.PosSignal.SignalProvider_SafetyChanged(System.Object,HYC.AutoPosition.Interface.SafetyEventArgs)">
+            <summary>
+            安全条件改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.UserManager">
+            <summary>
+            用户管理类
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserManager.lstUsers">
+            <summary>
+            用户列表
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.UserManager.CurUser">
+            <summary>
+            当前的用户
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.UserManager.IsLogin">
+            <summary>
+            用户是否已登录
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.UserManager.TimeOut">
+            <summary>
+            登录超时时间
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.UI.Entities.UserManager.UserChanged">
+            <summary>
+            用户更改事件
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.LoadUsers">
+            <summary>
+            加载所有用户
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.Timer_Elapsed(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            定时时间到，退出登录
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.ResetTimer">
+            <summary>
+            重置定时器
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.GetUsers">
+            <summary>
+            获取除了管理员账户以外的所有账户列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.Login(System.String,System.String)">
+            <summary>
+            登录
+            </summary>
+            <param name="name">用户名</param>
+            <param name="pwd">密码</param>
+            <returns>true:登录成功 false:登录失败</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.Logout">
+            <summary>
+            退出登录
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.UserValidate(System.String,System.String)">
+            <summary>
+            用户验证
+            </summary>
+            <param name="name">用户名</param>
+            <param name="pwd">密码</param>
+            <returns>true:用户存在且密码正确</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.Register(System.String,System.String,System.String,HYC.AutoPosition.UI.Entities.UserLevel,System.Int32)">
+            <summary>
+            注册用户
+            </summary>
+            <param name="name">用户名</param>
+            <param name="pwd">密码</param>
+            <param name="pwdConfirm">密码确认</param>
+            <param name="level">用户等级</param>
+            <param name="permission">用户权限</param>
+            <returns>true:注册成功 false:注册失败</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.DeleteUser(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <param name="name">用户名</param>
+            <returns>true:删除成功 false:删除失败</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.ModifyPassword(System.String,System.String,System.String)">
+            <summary>
+            修改密码
+            </summary>
+            <param name="name">用户名</param>
+            <param name="oldpwd">旧密码</param>
+            <param name="newpwd">新密码</param>
+            <returns>true:修改成功 false:修改失败</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.ModifyUserLevel(System.String,HYC.AutoPosition.UI.Entities.UserLevel)">
+            <summary>
+            修改用户等级
+            </summary>
+            <param name="name"></param>
+            <param name="level"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.ModifyPermission(System.String,System.Int32)">
+            <summary>
+            修改用户权限
+            </summary>
+            <param name="name">用户名</param>
+            <param name="permission">权限</param>
+            <returns>true:修改成功 false:修改失败</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.HasPermission(System.Int32)">
+            <summary>
+            判断当前用户是否具有某个权限
+            </summary>
+            <param name="flag"></param>
+            <returns>true:有权限 false:无权限</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.GetMD5(System.String)">
+            <summary>
+            获取字符串的MD5值
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>输出字符串</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.LoadUsersFromFile">
+            <summary>
+            从文件中加载用户
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.UserManager.SaveUsersToFile">
+            <summary>
+            将用户列表保存至文件
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.UserEventArgs">
+            <summary>
+            用户事件参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.UserEventArgs.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.UserEventArgs.Action">
+            <summary>
+            动作
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.UserEventAction">
+            <summary>
+            用户事件类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserEventAction.Login">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserEventAction.Logout">
+            <summary>
+            注销
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserEventAction.TimeOut">
+            <summary>
+            超时自动退出
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.User">
+            <summary>
+            用户类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.User.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.User.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.User.Level">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Entities.User.Permission">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Entities.User.ToString">
+            <summary>
+            转换为文本
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.UserLevel">
+            <summary>
+            用户等级
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserLevel.User">
+            <summary>
+            普通用户
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserLevel.Engineer">
+            <summary>
+            工程师用户
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserLevel.Developer">
+            <summary>
+            开发者用户
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Entities.UserPermission">
+            <summary>
+            用户权限
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Entities.UserPermission.Unknown">
+            <summary>
+            未定义
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.FormAutoPos">
+            <summary>
+            自动对位窗体
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.FormAutoPos.splitter">
+            <summary>
+            界面分割控件
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.FormAutoPos.SelectedRecipeID">
+            <summary>
+            已选中的机种
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.FormAutoPos_Load(System.Object,System.EventArgs)">
+            <summary>
+            窗体启动事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.LoadViews">
+            <summary>
+            加载视图
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.RegisterControlEvent(System.Windows.Forms.Control)">
+            <summary>
+            注册控件事件
+            </summary>
+            <param name="ctrl"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.Ctrl_ControlActive(System.Object,System.EventArgs)">
+            <summary>
+            控件活动时，重置用户超时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.Navigate_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            页面导航
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.InitHardware">
+            <summary>
+            初始化硬件连接
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.UnInitHardware">
+            <summary>
+            释放硬件连接
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.SetSignalProvider(HYC.AutoPosition.Interface.ISignalProvider)">
+            <summary>
+            外部传入ISignalProvider实例
+            </summary>
+            <param name="provider">ISignalProvider实例</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.RecipeSync(System.Object,HYC.AutoPosition.Interface.RecipeSyncArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.btnRecipeSelect_Click(System.Object,System.EventArgs)">
+            <summary>
+            机种选择
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.RecipeSelect(System.String)">
+            <summary>
+            机种选择
+            </summary>
+            <param name="recipeId"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.btnLogout_Click(System.Object,System.EventArgs)">
+            <summary>
+            用户注销
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.ShowUser">
+            <summary>
+            显示登录的用户信息
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.GetManager">
+            <summary>
+            获取Manager对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.GetUserManager">
+            <summary>
+            获取用户管理类
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.SetLanguage(System.String)">
+            <summary>
+            设置语言
+            </summary>
+            <param name="language"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.RegisterLiveImage(System.Int32,System.Boolean,HYC.AutoPosition.UI.Entities.ShowLiveImage)">
+            <summary>
+            注册相机实时图像
+            </summary>
+            <param name="index">相机序号</param>
+            <param name="isSetToLive">是否设置成实时模式</param>
+            <param name="method">显示图像的委托</param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.FormAutoPos.ViewEnum">
+            <summary>
+            视图类型枚举
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.FormAutoPos.ViewEnum.ViewXYT">
+            <summary>
+            对位平台页面
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.FormAutoPos.ViewEnum.ViewRecipeManage">
+            <summary>
+            机种管理页面
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.FormAutoPos.ViewEnum.ViewUserManage">
+            <summary>
+            用户管理页面
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.FormAutoPos.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.FormAutoPos.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Forms.FormRecipeNew">
+            <summary>
+            新建机种窗口
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Forms.FormRecipeNew.RecipeID">
+            <summary>
+            机种ID
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.FormRecipeNew_Load(System.Object,System.EventArgs)">
+            <summary>
+            窗体启动事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.FormRecipeNameInput_Activated(System.Object,System.EventArgs)">
+            <summary>
+            窗体激活事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.txtRecipeID_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            文本框文本改变事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.btnOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            确定按钮
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            取消按钮
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Forms.FormRecipeNew.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipeNew.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Forms.FormRecipePick">
+            <summary>
+            机种选择窗口
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Forms.FormRecipePick.RecipeID">
+            <summary>
+            选中的RecipeID
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Forms.FormRecipePick.RecipeList">
+            <summary>
+            机种列表
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.FormRecipePick_Load(System.Object,System.EventArgs)">
+            <summary>
+            窗体启动事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.btnOK_Click(System.Object,System.EventArgs)">
+            <summary>
+            确定按钮
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.btnCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            取消按钮
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Forms.FormRecipePick.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormRecipePick.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Forms.FormTemplateSet.Image">
+            <summary>
+            图像
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Forms.FormTemplateSet.Option">
+            <summary>
+            选择
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.FormTemplateSet_Load(System.Object,System.EventArgs)">
+            <summary>
+            窗体加载
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.btnSetAsLeft_Click(System.Object,System.EventArgs)">
+            <summary>
+            设置为左模板
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.btnSetAsRight_Click(System.Object,System.EventArgs)">
+            <summary>
+            设置为右模板
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.btnClose_Click(System.Object,System.EventArgs)">
+            <summary>
+            关闭窗口
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Forms.FormTemplateSet.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Forms.FormTemplateSet.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.LanguageHelper.Msg">
+            <summary>
+            消息文本定义
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Helper.LanguageHelper.SetLanguage(System.String)">
+            <summary>
+            修改语言
+            </summary>
+            <param name="lang">待设置语言</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Helper.LanguageHelper.LoadLanguage(System.Windows.Forms.Form)">
+            <summary>
+            加载语言
+            </summary>
+            <param name="form">加载语言的窗口</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Helper.LanguageHelper.Loading(System.Windows.Forms.Control,System.ComponentModel.ComponentResourceManager)">
+            <summary>
+            加载语言
+            </summary>
+            <param name="control">控件</param>
+            <param name="resources">语言资源</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Helper.LanguageHelper.Loading(System.Windows.Forms.ToolStripMenuItem,System.ComponentModel.ComponentResourceManager)">
+            <summary>
+            遍历菜单
+            </summary>
+            <param name="item">菜单项</param>
+            <param name="resources">语言资源</param>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Helper.MsgDef">
+            <summary>
+            消息文本，默认语言
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosCamera_Name">
+            <summary>
+            相机名称
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosCamera_ConnectSuccess">
+            <summary>
+            相机连接成功
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosCamera_ConnectFailed">
+            <summary>
+            相机连接失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosCamera_InitError">
+            <summary>
+            相机初始化异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosPlatform_Name">
+            <summary>
+            平台名称
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosPlatform_InitError">
+            <summary>
+            平台初始化失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_AutoPosRequestReceived">
+            <summary>
+            收到自动对位请求
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_ErrorToStartAutoPos">
+            <summary>
+            创建自动对位流程异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_CalibrationRequest">
+            <summary>
+            收到自动标定请求
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_ErrorToStartCalibration">
+            <summary>
+            创建自动标定流程异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_MoveRequestReceived">
+            <summary>
+            收到运动请求
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_MoveCompleted">
+            <summary>
+            运动完成
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.PosSignal_MoveError">
+            <summary>
+            运动异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_UserNameNotExist">
+            <summary>
+            用户名不存在
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_UserNameAlreadyExist">
+            <summary>
+            用户名已存在
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_PasswordError">
+            <summary>
+            密码错误
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_NameOrPwdEmpty">
+            <summary>
+            用户名和密码不能为空
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_PasswordsDifferent">
+            <summary>
+            两次输入的密码不一致
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_AdminCanNotDelete">
+            <summary>
+            管理员账户无法删除
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_UserInUse">
+            <summary>
+            用户正在使用中
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_AdminPwdCanNotModify">
+            <summary>
+            管理员密码无法修改
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_OldPwdError">
+            <summary>
+            原密码错误
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_AdminLevelCanNotModify">
+            <summary>
+            管理员等级无法修改
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.UserManager_AdminPermissionCanNotModify">
+            <summary>
+            管理员权限无法修改
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewManual_ManualCalibrationTip">
+            <summary>
+            手动标定提示
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewManual_OpenFileFilter">
+            <summary>
+            打开文件的Filter
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewManual_SafetyConditionOff">
+            <summary>
+            安全条件OFF
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_RecipeAlreadyExist">
+            <summary>
+            机种已存在
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_FailedToCreateNewRecipe">
+            <summary>
+            新建机种失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_SelectRecipeToCopy">
+            <summary>
+            请选择需要另存的机种
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_FailedToSaveRecipeAs">
+            <summary>
+            另存机种失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_SelectRecipeToDelete">
+            <summary>
+            请选择需要删除的机种
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_RecipeDeleteConfirm">
+            <summary>
+            删除机种确认
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewRecipeManage_FailedToDeleteRecipe">
+            <summary>
+            机种删除失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewSetting_SaveError">
+            <summary>
+            保存失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.ViewSetting_GroupNameError">
+            <summary>
+            对位组名称错误
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.FormRecipeNew_RecipeIDLengthError">
+            <summary>
+            RecipeID长度错误
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.FormRecipeNew_RecipeIDExists">
+            <summary>
+            已存在RecipeID
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Helper.MsgDef.StrTip">
+            <summary>
+            提示
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Helper.MsgDef.SetToEnglish">
+            <summary>
+            设置成英文
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase">
+            <summary>
+            页面视图基类，定义虚方法，设置常用属性
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.IsNeedLogin">
+            <summary>
+            页面是否需要登录
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.UpdateView">
+            <summary>
+            更新视图显示
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewParameterBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.Parameter.ViewTemplatePara">
+            <summary>
+            流程参数编辑页面
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewTemplatePara.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.Parameter.ViewTemplatePara.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewTemplatePara.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.Parameter.ViewTemplatePara.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.ViewBase">
+            <summary>
+            页面视图基类，定义虚方法，设置常用属性
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.View.ViewBase.IsNeedLogin">
+            <summary>
+            页面是否需要登录
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewBase.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewBase.UpdateView">
+            <summary>
+            更新视图显示
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.ViewBase.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewBase.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewBase.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.ViewManual">
+            <summary>
+            手动视图，图片检测及拍照测试
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.UpdateView">
+            <summary>
+            更新视图
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.cboGroup_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            选择的组变化
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.cboStage_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            选择的目标工位变化
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.Manager_ImageReceived(System.Object,HYC.AutoPosition.Events.ImageReceivedArgs)">
+            <summary>
+            接收到图片数据
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.ViewBox_GrabRequest(System.Object,HYC.AutoPosition.UI.Controls.GrabEventArgs)">
+            <summary>
+            拍照
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.ViewBox_LiveRequest(System.Object,HYC.AutoPosition.UI.Controls.LiveEventArgs)">
+            <summary>
+            实时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.ShowMsg(System.String)">
+            <summary>
+            显示提示文本
+            </summary>
+            <param name="strMsg"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnDetectMark_Click(System.Object,System.EventArgs)">
+            <summary>
+            Mark检测（单组）
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnDetectTarget_Click(System.Object,System.EventArgs)">
+            <summary>
+            目标位检测（单组）
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnGrabTestMark_Click(System.Object,System.EventArgs)">
+            <summary>
+            拍照测试--Mark
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnGrabTestTarget_Click(System.Object,System.EventArgs)">
+            <summary>
+            拍照测试--目标位
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnManualPos_Click(System.Object,System.EventArgs)">
+            <summary>
+            手动对位
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnManualCalibration_Click(System.Object,System.EventArgs)">
+            <summary>
+            手动标定
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnGetExposureTime1_Click(System.Object,System.EventArgs)">
+            <summary>
+            获取曝光时间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnSetExposureTime1_Click(System.Object,System.EventArgs)">
+            <summary>
+            设定曝光时间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnGetExposureTime2_Click(System.Object,System.EventArgs)">
+            <summary>
+            获取曝光时间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.btnSetExposureTime2_Click(System.Object,System.EventArgs)">
+            <summary>
+            设定曝光时间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.SingleImageTest(System.Int32)">
+            <summary>
+            单组图片检测
+            </summary>
+            <param name="detectMode">检测模式 0：Mark图片 1：目标位图片</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.GrabTest(System.Int32)">
+            <summary>
+            拍照测试
+            </summary>
+            <param name="detectMode">检测模式 0：Mark图片 1：目标位图片</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.ManualPos">
+            <summary>
+            手动对位
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.ManualCalibration">
+            <summary>
+            手动标定
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.ViewManual.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewManual.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.ViewParameter">
+            <summary>
+            参数显示与设置视图
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewParameter.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewParameter.UpdateView">
+            <summary>
+            更新视图显示
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewParameter.LoadViews">
+            <summary>
+            加载视图
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.ViewParameter.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewParameter.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewParameter.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.ViewSetting">
+            <summary>
+            设置页面
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.UpdateView">
+            <summary>
+            更新界面显示
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.btnSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            保存设置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.SaveData">
+            <summary>
+            从界面获取设置
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.btnSelectPath_Click(System.Object,System.EventArgs)">
+            <summary>
+            选择图片保存路径
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.btnAddGroup_Click(System.Object,System.EventArgs)">
+            <summary>
+            添加对位组
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.ViewSetting.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewSetting.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.View.ViewMain">
+            <summary>
+            主视图，对位监控
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.UpdateView">
+            <summary>
+            更新界面
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.ControlsLayout">
+            <summary>
+            控件布局
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.ViewBox_GrabRequest(System.Object,HYC.AutoPosition.UI.Controls.GrabEventArgs)">
+            <summary>
+            拍照
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.ViewBox_LiveRequest(System.Object,HYC.AutoPosition.UI.Controls.LiveEventArgs)">
+            <summary>
+            实时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.Manager_ImageReceived(System.Object,HYC.AutoPosition.Events.ImageReceivedArgs)">
+            <summary>
+            接收到对位图片及XYT参数
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.View.ViewMain.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.View.ViewMain.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Global">
+            <summary>
+            全局类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Global.Manager">
+            <summary>
+            自动对位管理类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Global.Setting">
+            <summary>
+            自动对位设置类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Global.UserManager">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.Global.IniHelper">
+            <summary>
+            ini文件读写帮助类
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Global.LoadSettings">
+            <summary>
+            加载设置
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.Global.SaveSettings">
+            <summary>
+            保存设置
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.AutoPosSetting">
+            <summary>
+            自动对位设置类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.IsSaveImage">
+            <summary>
+            是否保存图片
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.IsSaveNgImageOnly">
+            <summary>
+            是否仅保存NG图
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.ImageSavePath">
+            <summary>
+            图片保存路径
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.RetryLimitCount">
+            <summary>
+            失败重试次数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.MoveFlowType">
+            <summary>
+            运动模式
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.IsAlgorithmShield">
+            <summary>
+            是否算法屏蔽
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.IsOutputColorMode">
+            <summary>
+            算法输出的为彩色图
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.XYTTypeName">
+            <summary>
+            对位平台类型
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.XYTInitPara">
+            <summary>
+            对位平台初始化参数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.ExposureTime">
+            <summary>
+            相机曝光时间
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.AutoPosSetting.ListGroup">
+            <summary>
+            所有对位组
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.AutoPosSetting.GetCameraConfigs">
+            <summary>
+            获取所有相机配置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.AutoPosSetting.GetGroupConfig(System.Int32)">
+            <summary>
+            找到目标平台对应的组
+            </summary>
+            <param name="stageIndex">目标平台</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.UI.AutoPosSetting.GetGroupIndex(System.Int32)">
+            <summary>
+            找到所有平台对应的组的序号
+            </summary>
+            <param name="stageIndex">目标平台</param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.GroupConfig">
+            <summary>
+            单组对位的设置类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.GroupName">
+            <summary>
+            分组名称
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.ListCamera">
+            <summary>
+            所有对位相机
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.MoveExecutorType">
+            <summary>
+            运动执行者类型
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.IsSwapXY">
+            <summary>
+            是否交换XY
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.IsConfirmRequired">
+            <summary>
+            运动完成后需要确认
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.IsUseGrabLock">
+            <summary>
+            是否启用拍照锁
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.ThreXYT">
+            <summary>
+            XYT对位成功的判定阈值
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.MaxMoveDistance">
+            <summary>
+            最大移动步距
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.GroupConfig.ListTargetStages">
+            <summary>
+            目标工位序号集合
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.CameraConfig">
+            <summary>
+            相机的设置类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.CameraConfig.Name">
+            <summary>
+            相机名称
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.CameraConfig.MacAddr">
+            <summary>
+            相机Mac地址
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.CameraConfig.CameraType">
+            <summary>
+            相机类型
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.CameraConfig.RotateFlipType">
+            <summary>
+            图像旋转与镜像
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.CameraConfig.ExposureTime">
+            <summary>
+            图像旋转与镜像
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.MoveExecutorType">
+            <summary>
+            运动执行者类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.MoveExecutorType.XYTPlatform">
+            <summary>
+            运动执行者为对位平台
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.UI.MoveExecutorType.SignalProvider">
+            <summary>
+            运动执行者为信号提供者
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.UI.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.Culture">
+            <summary>
+              重写当前线程的 CurrentUICulture 属性，对
+              使用此强类型资源类的所有资源查找执行重写。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.Area">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.copy">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.Delete">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.edit">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.filter">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.flow">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.list">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.menu">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.setting">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.UI.Properties.Resources.user">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="T:DrawTools.Command">
+            <summary>
+            Base class for commands used for Undo - Redo
+            </summary>
+        </member>
+        <member name="T:DrawTools.CommandAdd">
+            <summary>
+            Add new object command
+            </summary>
+        </member>
+        <member name="T:DrawTools.CommandChangeState">
+            <summary>
+            Changing state of existing objects:
+            move, resize, change properties.
+            </summary>
+        </member>
+        <member name="T:DrawTools.CommandDelete">
+            <summary>
+            Delete command
+            </summary>
+        </member>
+        <member name="T:DrawTools.CommandDeleteAll">
+            <summary>
+            Delete All command
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawArea.Owner">
+            <summary>
+            Reference to the owner form
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawArea.ActiveTool">
+            <summary>
+            Active drawing tool.
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawArea.GraphicsList">
+            <summary>
+            List of graphics objects.
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawArea.CanUndo">
+            <summary>
+            Return True if Undo operation is possible
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawArea.CanRedo">
+            <summary>
+            Return True if Redo operation is possible
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.Initialize(DrawTools.DrawToolControl)">
+            <summary>
+            Initialization
+            </summary>
+            <param name="owner"></param>
+        </member>
+        <member name="M:DrawTools.DrawArea.SetBackgroundImage(System.Drawing.Bitmap)">
+            <summary>
+            更新背景
+            </summary>
+            <param name="_image"></param>
+        </member>
+        <member name="M:DrawTools.DrawArea.GetBackgroundImage">
+            <summary>
+            获取背景图
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.AddCommandToHistory(DrawTools.Command)">
+            <summary>
+            Add command to history.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.ClearHistory">
+            <summary>
+            Clear Undo history.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.Undo">
+            <summary>
+            Undo
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.Redo">
+            <summary>
+            Redo
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.SetDirty">
+            <summary>
+            Set dirty flag (file is changed after last save operation)
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.SaveToStream(System.String)">
+            <summary>
+            保存数据
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DrawTools.DrawArea.SaveCapture(System.String)">
+            <summary>
+            保存当前截图
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.SaveOrigin(System.String)">
+            <summary>
+            保存原始图片
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.OnContextMenu(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Right-click handler
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="F:DrawTools.DrawArea.g">
+            <summary>
+            Draw graphic objects and 
+            group selection rectangle (optionally)
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.DrawArea_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse down.
+            Left button down event is passed to active tool.
+            Right button down event is handled in this class.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.DrawArea_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse move.
+            Moving without button pressed or with left button pressed
+            is passed to active tool.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.DrawArea_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse up event.
+            Left button up event is passed to active tool.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.DrawArea_SizeChanged(System.Object,System.EventArgs)">
+            <summary>
+            区域Size变化时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:DrawTools.DrawArea.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawArea.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DrawTools.DrawArea.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:DrawTools.DrawEllipse">
+            <summary>
+            Ellipse graphic object
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawEllipse.Clone">
+            <summary>
+            Clone this instance
+            </summary>
+        </member>
+        <member name="T:DrawTools.DrawLine">
+            <summary>
+            Line graphic object
+            </summary>
+        </member>
+        <member name="F:DrawTools.DrawLine.areaPath">
+            <summary>
+             Graphic objects for hit test
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawLine.Clone">
+            <summary>
+            Clone this instance
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawLine.GetHandle(System.Int32)">
+            <summary>
+            Get handle pointscroll by 1-based number
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawLine.HitTest(System.Drawing.Point)">
+            <summary>
+            Hit test.
+            Return value: -1 - no hit
+                           0 - hit anywhere
+                           > 1 - handle number
+            </summary>
+            <param name="pointscroll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawLine.Invalidate">
+            <summary>
+            Invalidate object.
+            When object is invalidated, path used for hit test
+            is released and should be created again.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawLine.CreateObjects">
+            <summary>
+            Create graphic objects used from hit test.
+            </summary>
+        </member>
+        <member name="T:DrawTools.DrawObject">
+            <summary>
+            Base class for all draw objects
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.Selected">
+            <summary>
+            Selection flag
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.Color">
+            <summary>
+            Color
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.PenWidth">
+            <summary>
+            Pen width
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.HandleCount">
+            <summary>
+            Number of handles
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.ID">
+            <summary>
+            Object ID
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.LastUsedColor">
+            <summary>
+            Last used color
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawObject.LastUsedPenWidth">
+            <summary>
+            Last used pen width
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawObject.Clone">
+            <summary>
+            Clone this instance.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawObject.Draw(System.Drawing.Graphics)">
+            <summary>
+            Draw object
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.Resize(System.Drawing.SizeF,System.Drawing.RectangleF)">
+            <summary>
+            
+            </summary>
+            <param name="scale"></param>
+            <param name="rectangleF"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.GetHandle(System.Int32)">
+            <summary>
+            Get handle pointscroll by 1-based number
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.GetHandleRectangle(System.Int32)">
+            <summary>
+            Get handle rectangle by 1-based number
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.DrawTracker(System.Drawing.Graphics)">
+            <summary>
+            Draw tracker for selected object
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.HitTest(System.Drawing.Point)">
+            <summary>
+            Hit test.
+            Return value: -1 - no hit
+                           0 - hit anywhere
+                           > 1 - handle number
+            </summary>
+            <param name="pointscroll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.PointInObject(System.Drawing.Point)">
+            <summary>
+            Test whether pointscroll is inside of the object
+            </summary>
+            <param name="pointscroll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.GetHandleCursor(System.Int32)">
+            <summary>
+            Get cursor for the handle
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.IntersectsWith(System.Drawing.Rectangle)">
+            <summary>
+            Test whether object intersects with rectangle
+            </summary>
+            <param name="rectangle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawObject.Move(System.Int32,System.Int32)">
+            <summary>
+            Move object
+            </summary>
+            <param name="deltaX"></param>
+            <param name="deltaY"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.MoveHandleTo(System.Drawing.Point,System.Int32,System.Drawing.RectangleF)">
+            <summary>
+            Move handle to the point
+            </summary>
+            <param name="point"></param>
+            <param name="handleNumber"></param>
+            <param name="rectangleF">Client Rectangle</param>
+        </member>
+        <member name="M:DrawTools.DrawObject.Dump">
+            <summary>
+            Dump (for debugging)
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawObject.Normalize">
+            <summary>
+            Normalize object.
+            Call this function in the end of object resizing.
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawObject.SaveToStream(System.Runtime.Serialization.SerializationInfo,System.Int32)">
+            <summary>
+            Save object to serialization stream
+            </summary>
+            <param name="info"></param>
+            <param name="orderNumber"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.LoadFromStream(System.Runtime.Serialization.SerializationInfo,System.Int32)">
+            <summary>
+            Load object from serialization stream
+            </summary>
+            <param name="info"></param>
+            <param name="orderNumber"></param>
+        </member>
+        <member name="M:DrawTools.DrawObject.Initialize">
+            <summary>
+            Initialization
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawObject.FillDrawObjectFields(DrawTools.DrawObject)">
+            <summary>
+            Copy fields from this instance to cloned instance drawObject.
+            Called from Clone functions of derived classes.
+            </summary>
+        </member>
+        <member name="T:DrawTools.DrawPolygon">
+            <summary>
+            Polygon graphic object
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawPolygon.Clone">
+            <summary>
+            Clone this instance
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawPolygon.GetHandle(System.Int32)">
+            <summary>
+            Get handle pointscroll by 1-based number
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawPolygon.CreateObjects">
+            <summary>
+            Create graphic object used for hit test
+            </summary>
+        </member>
+        <member name="T:DrawTools.DrawRectangle">
+            <summary>
+            Rectangle graphic object
+            </summary>
+        </member>
+        <member name="F:DrawTools.DrawRectangle.rectangle">
+            <summary>
+            需要显示的尺寸
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawRectangle.Rectangle">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.Clone">
+            <summary>
+            Clone this instance
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.Draw(System.Drawing.Graphics)">
+            <summary>
+            Draw rectangle
+            </summary>
+            <param name="g"></param>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.Resize(System.Drawing.SizeF,System.Drawing.RectangleF)">
+            <summary>
+            Resize rectangle
+            </summary>
+            <param name="scale"></param>
+            <param name="rectangleF"></param>
+        </member>
+        <member name="P:DrawTools.DrawRectangle.HandleCount">
+            <summary>
+            Get number of handles
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.GetHandle(System.Int32)">
+            <summary>
+            Get handle pointscroll by 1-based number
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.HitTest(System.Drawing.Point)">
+            <summary>
+            Hit test.
+            Return value: -1 - no hit
+                           0 - hit anywhere
+                           > 1 - handle number
+            </summary>
+            <param name="point"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.GetHandleCursor(System.Int32)">
+            <summary>
+            Get cursor for the handle
+            </summary>
+            <param name="handleNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.MoveHandleTo(System.Drawing.Point,System.Int32,System.Drawing.RectangleF)">
+            <summary>
+            Move handle to new pointscroll (resizing)
+            </summary>
+            <param name="point"></param>
+            <param name="handleNumber"></param>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.Move(System.Int32,System.Int32)">
+            <summary>
+            Move object
+            </summary>
+            <param name="deltaX"></param>
+            <param name="deltaY"></param>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.Normalize">
+            <summary>
+            Normalize rectangle
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.SaveToStream(System.Runtime.Serialization.SerializationInfo,System.Int32)">
+            <summary>
+            Save objevt to serialization stream
+            </summary>
+            <param name="info"></param>
+            <param name="orderNumber"></param>
+        </member>
+        <member name="M:DrawTools.DrawRectangle.LoadFromStream(System.Runtime.Serialization.SerializationInfo,System.Int32)">
+            <summary>
+            LOad object from serialization stream
+            </summary>
+            <param name="info"></param>
+            <param name="orderNumber"></param>
+        </member>
+        <member name="T:DrawTools.GraphicsList">
+            <summary>
+            List of graphic objects
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.Resize(System.Drawing.SizeF,System.Drawing.RectangleF)">
+            <summary>
+            重新构建大小
+            </summary>
+            <param name="rectangleF"></param>
+        </member>
+        <member name="M:DrawTools.GraphicsList.Dump">
+            <summary>
+            Dump (for debugging)
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.Clear">
+            <summary>
+            Clear all objects in the list
+            </summary>
+            <returns>
+            true if at least one object is deleted
+            </returns>
+        </member>
+        <member name="P:DrawTools.GraphicsList.Dirty">
+            <summary>
+            Tells if the document is dirty.
+            </summary>
+        </member>
+        <member name="P:DrawTools.GraphicsList.Count">
+            <summary>
+            Count and this [nIndex] allow to read all graphics objects
+            from GraphicsList in the loop.
+            </summary>
+        </member>
+        <member name="P:DrawTools.GraphicsList.SelectionCount">
+            <summary>
+            SelectedCount and GetSelectedObject allow to read
+            selected objects in the loop
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "P:DrawTools.GraphicsList.Selection" -->
+        <member name="M:DrawTools.GraphicsList.Insert(System.Int32,DrawTools.DrawObject)">
+            <summary>
+            Insert object to specified place.
+            Used for Undo.
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.Replace(System.Int32,DrawTools.DrawObject)">
+            <summary>
+            Replace object in specified place.
+            Used for Undo.
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.RemoveAt(System.Int32)">
+            <summary>
+            Remove object by index.
+            Used for Undo.
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.DeleteLastAddedObject">
+            <summary>
+            Delete last added object from the list
+            (used for Undo operation).
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.DeleteSelection">
+            <summary>
+            Delete selected items
+            </summary>
+            <returns>
+            true if at least one object is deleted
+            </returns>
+        </member>
+        <member name="M:DrawTools.GraphicsList.MoveSelectionToFront">
+            <summary>
+            Move selected items to front (beginning of the list)
+            </summary>
+            <returns>
+            true if at least one object is moved
+            </returns>
+        </member>
+        <member name="M:DrawTools.GraphicsList.MoveSelectionToBack">
+            <summary>
+            Move selected items to back (end of the list)
+            </summary>
+            <returns>
+            true if at least one object is moved
+            </returns>
+        </member>
+        <member name="M:DrawTools.GraphicsList.GetProperties">
+            <summary>
+            Get properties from selected objects and fill GraphicsProperties instance
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.GraphicsList.ApplyProperties(DrawTools.GraphicsProperties)">
+            <summary>
+            Apply properties for all selected objects.
+            Returns TRue if at least one property is changed.
+            </summary>
+        </member>
+        <member name="M:DrawTools.GraphicsList.ShowPropertiesDialog(DrawTools.DrawArea)">
+            <summary>
+            Show Properties dialog. Return true if list is changed
+            </summary>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:DrawTools.GraphicsProperties">
+            <summary>
+            Helper class used to show properties
+            for one or more graphic objects
+            </summary>
+        </member>
+        <member name="F:DrawTools.PropertiesDialog.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DrawTools.PropertiesDialog.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DrawTools.PropertiesDialog.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:DrawTools.ROIRectangle">
+            <summary>
+            ROI矩形
+            </summary>
+        </member>
+        <member name="F:DrawTools.ROIRectangle.NormalizationRectangle">
+            <summary>
+            归一化的矩形尺寸
+            </summary>
+        </member>
+        <member name="F:DrawTools.ROIRectangle.ROIType">
+            <summary>
+            ROI类型是Mark或者Area
+            </summary>
+        </member>
+        <member name="T:DrawTools.ROIRectangles">
+            <summary>
+            ROI列表
+            </summary>
+        </member>
+        <member name="T:DrawTools.Tool">
+            <summary>
+            Base class for all drawing tools
+            </summary>
+        </member>
+        <member name="M:DrawTools.Tool.OnMouseDown(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Left nous button is pressed
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.Tool.OnMouseMove(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse is moved, left mouse button is pressed or none button is pressed
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.Tool.OnMouseUp(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Left mouse button is released
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DrawTools.ToolEllipse">
+            <summary>
+            Ellipse tool
+            </summary>
+        </member>
+        <member name="T:DrawTools.ToolLine">
+            <summary>
+            Line tool
+            </summary>
+        </member>
+        <member name="T:DrawTools.ToolObject">
+            <summary>
+            Base class for all tools which create new graphic object
+            </summary>
+        </member>
+        <member name="P:DrawTools.ToolObject.Cursor">
+            <summary>
+            Tool cursor.
+            </summary>
+        </member>
+        <member name="M:DrawTools.ToolObject.OnMouseUp(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Left mouse is released.
+            New object is created and resized.
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.ToolObject.AddNewObject(DrawTools.DrawArea,DrawTools.DrawObject)">
+            <summary>
+            Add new object to draw area.
+            Function is called when user left-clicks draw area,
+            and one of ToolObject-derived tools is active.
+            </summary>
+            <param name="drawArea"></param>
+            <param name="o"></param>
+        </member>
+        <member name="T:DrawTools.ToolPointer">
+            <summary>
+            Pointer tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.ToolPointer.OnMouseDown(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Left mouse button is pressed
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.ToolPointer.OnMouseMove(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse is moved.
+            None button is pressed, or left button is pressed.
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.ToolPointer.OnMouseUp(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Right mouse button is released
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DrawTools.ToolPolygon">
+            <summary>
+            Polygon tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.ToolPolygon.OnMouseDown(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Left nouse button is pressed
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.ToolPolygon.OnMouseMove(DrawTools.DrawArea,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Mouse move - resize new polygon
+            </summary>
+            <param name="drawArea"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:DrawTools.ToolRectangle">
+            <summary>
+            Rectangle tool
+            </summary>
+        </member>
+        <member name="T:DrawTools.UndoManager">
+            <summary>
+            Class is responsible for executing Undo - Redo operations
+            </summary>
+        </member>
+        <member name="P:DrawTools.UndoManager.CanUndo">
+            <summary>
+            Return true if Undo operation is available
+            </summary>
+        </member>
+        <member name="P:DrawTools.UndoManager.CanRedo">
+            <summary>
+            Return true if Redo operation is available
+            </summary>
+        </member>
+        <member name="M:DrawTools.UndoManager.ClearHistory">
+            <summary>
+            Clear History
+            </summary>
+        </member>
+        <member name="M:DrawTools.UndoManager.AddCommandToHistory(DrawTools.Command)">
+            <summary>
+            Add new command to history.
+            Called by client after executing some action.
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="M:DrawTools.UndoManager.Undo">
+            <summary>
+            Undo
+            </summary>
+        </member>
+        <member name="M:DrawTools.UndoManager.Redo">
+            <summary>
+            Redo
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawToolControl.ArgumentFile">
+            <summary>
+            File name from the command line
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.InitROI(System.String)">
+            <summary>
+            初始化ROI
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.Save(System.String)">
+            <summary>
+            保存ROI区域
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.SetBackgroundImage(System.Drawing.Bitmap)">
+            <summary>
+            更新背景
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.GetBackgroundImage">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.OnDoubleClickEvent(System.EventHandler)">
+            <summary>
+            双击放大和缩小
+            </summary>
+            <param name="eventHandler"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.MainForm_DropDownOpened(System.Object,System.EventArgs)">
+            <summary>
+            Popup menu item (File, Edit ...) is opened.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.ResizeDrawArea">
+            <summary>
+            Set draw area to all form client space except toolbar
+            </summary>
+        </member>
+        <member name="P:DrawTools.DrawToolControl.ContextParent">
+            <summary>
+            Get reference to Edit menu item.
+            Used to show context menu in DrawArea class.
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.EnableCenterCross(System.Boolean)">
+            <summary>
+            是能CentorCross
+            </summary>
+            <param name="val"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.SaveCapture(System.String)">
+            <summary>
+            保存截图
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.SaveOrigin(System.String)">
+            <summary>
+            保存原始图片
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandPointer">
+            <summary>
+            Set Pointer draw tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandRectangle">
+            <summary>
+            Set Rectangle draw tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandEllipse">
+            <summary>
+            Set Ellipse draw tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandLine">
+            <summary>
+            Set Line draw tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandPolygon">
+            <summary>
+            Set Polygon draw tool
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandAbout">
+            <summary>
+            Show About dialog
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandUndo">
+            <summary>
+            Undo
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.CommandRedo">
+            <summary>
+            Redo
+            </summary>
+        </member>
+        <member name="F:DrawTools.DrawToolControl.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:DrawTools.DrawToolControl.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+    </members>
+</doc>

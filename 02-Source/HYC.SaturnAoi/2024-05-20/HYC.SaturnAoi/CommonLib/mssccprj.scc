@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[CommonLib.csproj]
+SCC_Aux_Path = "\\192.168.1.128\Vss\Mt2"
+SCC_Project_Name = "$/HYC.Mt2.root/HYC.Mt2/CommonLib", FAAAAAAA

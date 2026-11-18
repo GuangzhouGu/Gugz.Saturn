@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.HTSysmac</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.HTSysmac.SysmacBase">
+            <summary>
+            Sysmac 基类
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.Init(System.String,System.Int32)">
+            <summary>
+            初始化连接
+            </summary>
+            <param name="ipAddr">IP地址</param>
+            <param name="port">端口</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.ReInit">
+            <summary>
+            重连
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.DisConnect">
+            <summary>
+            断开
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacCJ2Compolet.IsConnected">
+            <summary>
+            连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.GetIsConnected">
+            <summary>
+            获取连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.ReadVariable(System.String)">
+            <summary>
+            读取单标签
+            </summary>
+            <param name="tagName">标签名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.ReadVariableMultiple(System.String[])">
+            <summary>
+            读取多标签
+            </summary>
+            <param name="variableNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.WriteVariable(System.String,System.Object)">
+            <summary>
+            写入标签
+            </summary>
+            <param name="tagName">标签</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.GetVariableNames">
+            <summary>
+            获取所有标签名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacCJ2Compolet.GetVariableInfo(System.String)">
+            <summary>
+            查询标签数据及类型
+            </summary>
+            <param name="variableName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTSysmac.SysmacManager">
+            <summary>
+            Sysmac 管理类
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.#ctor">
+            <summary>
+            无参构造
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.InitSysmac(HYC.HTSysmac.SysmacParameter)">
+            <summary>
+            初始化
+            </summary>
+            <param name="parameter">参数</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReInit">
+            <summary>
+            重连
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.DisConnect">
+            <summary>
+            断开连接
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.GetIsConnected">
+            <summary>
+            获取连接状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.GetVariableNames">
+            <summary>
+            获取标签列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.GetVariableInfo(System.String)">
+            <summary>
+            查询标签数据及类型
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.SetHandler(System.IntPtr)">
+            <summary>
+            设定handle
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadBit(System.String)">
+            <summary>
+            读取Bit
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadBits(System.String)">
+            <summary>
+            读取Bit数组
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadWord(System.String)">
+            <summary>
+            读取Word
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadWords(System.String)">
+            <summary>
+            读取Word数组
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadString(System.String)">
+            <summary>
+            读取String
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadVariableMultiple(System.String[])">
+            <summary>
+            读取多个标签
+            </summary>
+            <param name="variableNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.ReadVariable(System.String)">
+            <summary>
+            读取单标签 返回object
+            </summary>
+            <param name="tagName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacManager.WriteVariable(System.String,System.Object)">
+            <summary>
+            写标签
+            </summary>
+            <param name="tagName"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.Init(System.String,System.Int32)">
+            <summary>
+            初始化连接
+            </summary>
+            <param name="ipAddr">IP地址</param>
+            <param name="port">端口</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.ReInit">
+            <summary>
+            重连
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.DisConnect">
+            <summary>
+            断开
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacNJCompolet.IsConnected">
+            <summary>
+            连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.GetIsConnected">
+            <summary>
+            获取连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.ReadVariable(System.String)">
+            <summary>
+            读取单标签
+            </summary>
+            <param name="tagName">标签名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.ReadVariableMultiple(System.String[])">
+            <summary>
+            读取多标签
+            </summary>
+            <param name="variableNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.WriteVariable(System.String,System.Object)">
+            <summary>
+            写入标签
+            </summary>
+            <param name="tagName">标签</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.GetVariableNames">
+            <summary>
+            获取所有标签名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacNJCompolet.GetVariableInfo(System.String)">
+            <summary>
+            查询标签数据及类型
+            </summary>
+            <param name="variableName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTSysmac.SysmacParameter">
+            <summary>
+            Sysmac初始化 参数对象
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacParameter.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacParameter.IP">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacParameter.Port">
+            <summary>
+            端口
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacParameter.#ctor(HYC.HTSysmac.SysmacType,System.String,System.Int32)">
+            <summary>
+            有参构造
+            </summary>
+            <param name="type"></param>
+            <param name="ip"></param>
+            <param name="port"></param>
+        </member>
+        <member name="T:HYC.HTSysmac.SysmacType">
+            <summary>
+            Sysmac 类型枚举
+            </summary>
+        </member>
+        <member name="F:HYC.HTSysmac.SysmacType.NJCompolet">
+            <summary>
+            NjCompolet 真实调试PLC
+            </summary>
+        </member>
+        <member name="F:HYC.HTSysmac.SysmacType.VariableCompolet">
+            <summary>
+            VariableCompolet 模拟调试
+            </summary>
+        </member>
+        <member name="F:HYC.HTSysmac.SysmacType.CJ2Compolet">
+            <summary>
+            CJ2Compolet
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.Init(System.String,System.Int32)">
+            <summary>
+            初始化连接
+            </summary>
+            <param name="ip">IP地址</param>
+            <param name="port">端口</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.ReInit">
+            <summary>
+            重连
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.DisConnect">
+            <summary>
+            断开
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.SysmacVariableCompolet.IsConnected">
+            <summary>
+            连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.GetIsConnected">
+            <summary>
+            获取连接状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.ReadVariable(System.String)">
+            <summary>
+            读取单标签
+            </summary>
+            <param name="tagName">标签名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.ReadVariableMultiple(System.String[])">
+            <summary>
+            读取多标签
+            </summary>
+            <param name="variableNames"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.WriteVariable(System.String,System.Object)">
+            <summary>
+            写入值
+            </summary>
+            <param name="tagName">标签</param>
+            <param name="data">数据</param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.SetHandler(System.IntPtr)">
+            <summary>
+            设定句柄  VariableCompolet需要
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.GetVariableNames">
+            <summary>
+            获取所有标签名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTSysmac.SysmacVariableCompolet.GetVariableInfo(System.String)">
+            <summary>
+            查询标签数据及类型
+            </summary>
+            <param name="variableName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTSysmac.VariableEntity">
+            <summary>
+            标签数据实体
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.VariableEntity.Name">
+            <summary>
+            名称
+            </summary>
+        </member>
+        <member name="P:HYC.HTSysmac.VariableEntity.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+    </members>
+</doc>

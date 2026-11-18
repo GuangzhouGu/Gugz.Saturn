@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.HTAlarm</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.HTAlarm.Controls.UcAlarm">
+            <summary>
+            报警显示与查询控件
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.View_CellFormatting(System.Object,System.Windows.Forms.DataGridViewCellFormattingEventArgs)">
+            <summary>
+            格式化显示
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.InitManager(HYC.HTAlarm.HTAlarmManager)">
+            <summary>
+            初始化，绑定
+            </summary>
+            <param name="manager"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.Manager_AlarmAdded(HYC.HTAlarm.DB.Model.AlarmHistory)">
+            <summary>
+            报警产生
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.Manager_AlarmRemoved(HYC.HTAlarm.DB.Model.AlarmHistory)">
+            <summary>
+            报警解除
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.timerRefresh_Tick(System.Object,System.EventArgs)">
+            <summary>
+            定时刷新当前报警
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.ListRefresh">
+            <summary>
+            刷新当前报警显示
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.dgvData_DataError(System.Object,System.Windows.Forms.DataGridViewDataErrorEventArgs)">
+            <summary>
+            处理datagrid单元格错误
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.btnQuery_Click(System.Object,System.EventArgs)">
+            <summary>
+            查询报警记录
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.ckbNow1_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            使用当前时间
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.btnImport_Click(System.Object,System.EventArgs)">
+            <summary>
+            报警定义导入
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.btnGenerateTemplate_Click(System.Object,System.EventArgs)">
+            <summary>
+            生成csv模板文件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.SetBtnEnable(System.Windows.Forms.Button,System.Boolean)">
+            <summary>
+            设置按钮启用状态
+            </summary>
+            <param name="btn"></param>
+            <param name="isEnabled"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.SetProgVisible(System.Windows.Forms.ProgressBar,System.Boolean)">
+            <summary>
+            设置进度条的可见性
+            </summary>
+            <param name="prog"></param>
+            <param name="isVisible"></param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.ShowProgressValue(System.Int32)">
+            <summary>
+            显示进度
+            </summary>
+            <param name="val"></param>
+        </member>
+        <member name="F:HYC.HTAlarm.Controls.UcAlarm.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.HTAlarm.Controls.UcAlarm.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.DAL.AlarmDetailDal">
+            <summary>
+            报警定义查询
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.GetAll">
+            <summary>
+            获取所有的行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.GetById(System.String)">
+            <summary>
+            获取指定AlarmId的报警定义
+            </summary>
+            <param name="alarmId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.Insert(HYC.HTAlarm.DB.Model.AlarmDetail)">
+            <summary>
+            插入一条记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.Update(HYC.HTAlarm.DB.Model.AlarmDetail)">
+            <summary>
+            更新一条记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.Delete(System.String)">
+            <summary>
+            删除指定alarmId的记录
+            </summary>
+            <param name="alarmId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmDetailDal.DeleteAll">
+            <summary>
+            删除所有记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.DAL.AlarmHistoryDal">
+            <summary>
+            报警历史查询
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.GetByTime(System.DateTime,System.DateTime)">
+            <summary>
+            根据时间查询报警历史
+            </summary>
+            <param name="from">起始时间</param>
+            <param name="to">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.GetByTimeAndLevel(System.DateTime,System.DateTime,System.String)">
+            <summary>
+            根据时间查询报警历史
+            </summary>
+            <param name="from">起始时间</param>
+            <param name="to">结束时间</param>
+            <param name="level">报警等级</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.GetDataSetByTimeAndLevel(System.DateTime,System.DateTime,System.String,System.String,System.String)">
+            <summary>
+            根据时间查询报警历史
+            </summary>
+            <param name="from">起始时间</param>
+            <param name="to">结束时间</param>
+            <param name="level">报警等级</param>
+            <param name="alarmType">报警类型</param>
+            <param name="unitId">单元Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.GetDataSetByAlarmCount(System.DateTime,System.DateTime,System.String,System.String,System.String)">
+            <summary>
+            根据报警次数统计
+            </summary>
+            <param name="from">起始时间</param>
+            <param name="to">结束时间</param>
+            <param name="level">报警等级</param>
+            <param name="alarmType">报警类型</param>
+            <param name="unitId">单元Id</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.GetCurAlarm">
+            <summary>
+            获取当前报警列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.Insert(HYC.HTAlarm.DB.Model.AlarmHistory)">
+            <summary>
+            插入一条记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.Update(HYC.HTAlarm.DB.Model.AlarmHistory)">
+            <summary>
+            更新记录
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.AlarmHistoryDal.Delete(System.Int32)">
+            <summary>
+            删除指定天数之前的记录
+            </summary>
+            <param name="days"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.DAL.BaseDal">
+            <summary>
+            数据库查询基类
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.BaseDal.ConnectionString">
+            <summary>
+            默认的连接字符串
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.BaseDal.SQLType">
+            <summary>
+            数据库类型，默认为MySQL
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.BaseDal.db">
+            <summary>
+            数据库访问对象
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.DB.DAL.BaseDal.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="E:HYC.HTAlarm.DB.DAL.BaseDal.Log">
+            <summary>
+            日志输出
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.DAL.AlarmSQLType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.AlarmSQLType.MySQL">
+            <summary>
+            MySQL
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.AlarmSQLType.SQLServer">
+            <summary>
+            SQLServer
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.DAL.AlarmSQLType.SQLite">
+            <summary>
+            SQLite
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.Model.AlarmDetail">
+            <summary>
+            报警定义
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.AlarmId">
+            <summary>
+            报警ID
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.AlarmLevel">
+            <summary>
+            报警等级 1提示 2轻报警 3重报警
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.Description">
+            <summary>
+            报警英文文本信息，例如：PC1 alarm
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.DescriptionCN">
+            <summary>
+            报警中文文本信息，例如：重报警[W02.0]PC1未准备好(PC)
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.UpdateTime">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.PlcAddr">
+            <summary>
+            PLC地址或标签
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmDetail.AlarmType">
+            <summary>
+            报警分类
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.Model.AlarmLevel">
+            <summary>
+            报警等级定义
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.Model.AlarmLevel.Information">
+            <summary>
+            提示
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.Model.AlarmLevel.LightAlarm">
+            <summary>
+            轻报警
+            </summary>
+        </member>
+        <member name="F:HYC.HTAlarm.DB.Model.AlarmLevel.HeavyAlarm">
+            <summary>
+            重报警
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.DB.Model.AlarmHistory">
+            <summary>
+            报警历史
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.AlarmId">
+            <summary>
+            报警ID
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.AlarmTime">
+            <summary>
+            报警发生时间
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.AlarmCancelTime">
+            <summary>
+            报警解除时间
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.Alive">
+            <summary>
+            是否在报警中
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.EqpId">
+            <summary>
+            设备ID，整个设备唯一
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.UnitId">
+            <summary>
+            设备中的单元ID
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.DB.Model.AlarmHistory.AlarmDetail">
+            <summary>
+            报警定义
+            </summary>
+        </member>
+        <member name="T:HYC.HTAlarm.HTAlarmManager">
+            <summary>
+            报警消息管理
+            </summary>
+        </member>
+        <member name="P:HYC.HTAlarm.HTAlarmManager.Instance">
+            <summary>
+            实例，单例模式
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.Init(System.String,HYC.HTAlarm.DB.DAL.AlarmSQLType,System.String)">
+            <summary>
+            初始化
+            </summary>
+            <param name="connStr">连接字符串</param>
+            <param name="sqlType">数据库类型</param>
+            <param name="eqpId">设备ID</param>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.LoadCurAlarm">
+            <summary>
+            加载当前的报警
+            </summary>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.GetCurAlarm">
+            <summary>
+            获取当前的报警列表
+            </summary>
+            <returns>匿名类的集合List&lt;'a></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.GetCurAlarmList">
+            <summary>
+            获取当前的报警列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.GetAlarmHistory(System.DateTime,System.DateTime)">
+            <summary>
+            获取指定时间段内的报警历史
+            </summary>
+            <param name="start">起始时间</param>
+            <param name="end">结束时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.GetAlarmHistory(System.DateTime,System.DateTime,HYC.HTAlarm.DB.Model.AlarmLevel)">
+            <summary>
+            获取指定时间段内的报警历史
+            </summary>
+            <param name="start">起始时间</param>
+            <param name="end">结束时间</param>
+            <param name="level">报警等级</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.Add(System.String,System.String)">
+            <summary>
+            添加报警
+            </summary>
+            <param name="alarmId">报警ID</param>
+            <param name="unitId">单元ID</param>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.Remove(System.String)">
+            <summary>
+            移除报警
+            </summary>
+            <param name="alarmId">报警ID</param>
+        </member>
+        <member name="M:HYC.HTAlarm.HTAlarmManager.RemoveAll">
+            <summary>
+            移除所有报警
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:HYC.HTAlarm.HTAlarmManager.AlarmAdded">
+            <summary>
+            报警添加完成
+            </summary>
+        </member>
+        <member name="E:HYC.HTAlarm.HTAlarmManager.AlarmRemoved">
+            <summary>
+            报警移除完成
+            </summary>
+        </member>
+    </members>
+</doc>

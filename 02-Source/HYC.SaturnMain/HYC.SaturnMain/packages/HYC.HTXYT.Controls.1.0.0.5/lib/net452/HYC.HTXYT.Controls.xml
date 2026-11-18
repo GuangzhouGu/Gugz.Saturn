@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.HTXYT.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.HTXYT.Controls.UcAxisStatus">
+            <summary>
+            单个轴的状态监控控件
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.AxisType">
+            <summary>
+            轴类型 X/Y/T
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.Address">
+            <summary>
+            轴地址
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.HomePos">
+            <summary>
+            原点位置
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.UserPos1">
+            <summary>
+            用户位置1
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.UserPos2">
+            <summary>
+            用户位置2
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.UserPos3">
+            <summary>
+            用户位置3
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.IsMoveLimit">
+            <summary>
+            是否启用轴的极限位置限制
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.MaxPos">
+            <summary>
+            正极限位置
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.MinPos">
+            <summary>
+            负极限位置
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.Vel">
+            <summary>
+            初始速度
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.Acc">
+            <summary>
+            加速度
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.Distance">
+            <summary>
+            运动距离
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcAxisStatus.IsSafeToMove">
+            <summary>
+            移动是否安全
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.UpdateView(HYC.HTXYT.Base.Axis)">
+            <summary>
+            更新界面
+            </summary>
+            <param name="axis"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.btnMoveRel_Click(System.Object,System.EventArgs)">
+            <summary>
+            相对移动
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.btnHome_Click(System.Object,System.EventArgs)">
+            <summary>
+            回原点
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.txt_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            文本框输入更改
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.chkMoveLimit_CheckedChanged(System.Object,System.EventArgs)">
+            <summary>
+            CheckBox状态改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="E:HYC.HTXYT.Controls.UcAxisStatus.SettingChanged">
+            <summary>
+            通过界面更改了设置
+            </summary>
+        </member>
+        <member name="F:HYC.HTXYT.Controls.UcAxisStatus.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcAxisStatus.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+        <member name="T:HYC.HTXYT.Controls.UcPlatformStatus">
+            <summary>
+            平台的状态监控控件
+            </summary>
+        </member>
+        <member name="P:HYC.HTXYT.Controls.UcPlatformStatus.IsSafeToMove">
+            <summary>
+            移动是否安全
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.Axis_SettingChanged(System.Object,System.EventArgs)">
+            <summary>
+            通过界面更改了设置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.InitView(HYC.HTXYT.Base.XYTManager)">
+            <summary>
+            初始化控件显示，当Manager变化时调用
+            </summary>
+            <param name="manager"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.cboPlatList_SelectedIndexChanged(System.Object,System.EventArgs)">
+            <summary>
+            选中的平台变化
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.UpdateAxises">
+            <summary>
+            更新轴的设置显示
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.Manager_StatusUpdate(System.Object,HYC.HTXYT.Base.XYTEventArgs)">
+            <summary>
+            状态改变
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.UpdateView(HYC.HTXYT.Base.XYTPlatform)">
+            <summary>
+            更新控件显示
+            </summary>
+            <param name="platform"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnServoOn_Click(System.Object,System.EventArgs)">
+            <summary>
+            全部伺服ON
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnServoOff_Click(System.Object,System.EventArgs)">
+            <summary>
+            全部伺服OFF
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnMoveRel_Click(System.Object,System.EventArgs)">
+            <summary>
+            平台多轴联动，相对移动
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnToHome_Click(System.Object,System.EventArgs)">
+            <summary>
+            全部轴回原点
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnToUserPos1_Click(System.Object,System.EventArgs)">
+            <summary>
+            到用户位置1
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnToUserPos2_Click(System.Object,System.EventArgs)">
+            <summary>
+            到用户位置2
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.btnToUserPos3_Click(System.Object,System.EventArgs)">
+            <summary>
+            到用户位置3
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:HYC.HTXYT.Controls.UcPlatformStatus.components">
+            <summary> 
+            必需的设计器变量。
+            </summary>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.Dispose(System.Boolean)">
+            <summary> 
+            清理所有正在使用的资源。
+            </summary>
+            <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        </member>
+        <member name="M:HYC.HTXYT.Controls.UcPlatformStatus.InitializeComponent">
+            <summary> 
+            设计器支持所需的方法 - 不要修改
+            使用代码编辑器修改此方法的内容。
+            </summary>
+        </member>
+    </members>
+</doc>

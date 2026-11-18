@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31504D1F-A2A9-42F3-A473-D566733A4E75}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HYC.AutoPosition.UI</RootNamespace>
+    <AssemblyName>HYC.AutoPosition.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\..\Execute\HYC.SaturnMain\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DocumentationFile>bin\Debug\HYC.AutoPosition.UI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\HYC.AutoPosition.UI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emgu.CV.UI, Version=3.2.0.2721, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emgu.CV.3.2.0.2721\lib\net35\Emgu.CV.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Emgu.CV.World, Version=3.2.0.2721, Culture=neutral, PublicKeyToken=7281126722ab4438, processorArchitecture=MSIL">
+      <HintPath>..\packages\Emgu.CV.3.2.0.2721\lib\net35\Emgu.CV.World.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTCamera.GigE, Version=1.0.0.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTCamera.GigE.1.0.0.10\lib\net452\HYC.HTCamera.GigE.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTFile, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTFile.1.0.0.1\lib\net45\HYC.HTFile.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTLog, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\HYC.HTLog.1.0.0.3\lib\net45\HYC.HTLog.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTTools, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTTools.1.0.0.2\lib\net452\HYC.HTTools.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTXYT, Version=1.0.0.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTXYT.1.0.0.4\lib\net452\HYC.HTXYT.dll</HintPath>
+    </Reference>
+    <Reference Include="HYC.HTXYT.Controls, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\HYC.HTXYT.Controls.1.0.0.5\lib\net452\HYC.HTXYT.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZedGraph, Version=5.1.5.28844, Culture=neutral, PublicKeyToken=02a83cbd123fcd60, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZedGraph.5.1.5\lib\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\CameraCaptureArgs.cs" />
+    <Compile Include="Controls\DevStatusIndicator.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DevStatusIndicator.Designer.cs">
+      <DependentUpon>DevStatusIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DevStatusPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawTools\Command.cs" />
+    <Compile Include="Controls\DrawTools\CommandAdd.cs" />
+    <Compile Include="Controls\DrawTools\CommandChangeState.cs" />
+    <Compile Include="Controls\DrawTools\CommandDelete.cs" />
+    <Compile Include="Controls\DrawTools\CommandDeleteAll.cs" />
+    <Compile Include="Controls\DrawTools\DrawArea.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawTools\DrawArea.Designer.cs">
+      <DependentUpon>DrawArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawTools\DrawEllipse.cs" />
+    <Compile Include="Controls\DrawTools\DrawLine.cs" />
+    <Compile Include="Controls\DrawTools\DrawObject.cs" />
+    <Compile Include="Controls\DrawTools\DrawPolygon.cs" />
+    <Compile Include="Controls\DrawTools\DrawRectangle.cs" />
+    <Compile Include="Controls\DrawTools\GraphicsList.cs" />
+    <Compile Include="Controls\DrawTools\GraphicsProperties.cs" />
+    <Compile Include="Controls\DrawTools\PropertiesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawTools\PropertiesDialog.Designer.cs">
+      <DependentUpon>PropertiesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawTools\ROIRectangles.cs" />
+    <Compile Include="Controls\DrawTools\Tool.cs" />
+    <Compile Include="Controls\DrawTools\ToolEllipse.cs" />
+    <Compile Include="Controls\DrawTools\ToolLine.cs" />
+    <Compile Include="Controls\DrawTools\ToolObject.cs" />
+    <Compile Include="Controls\DrawTools\ToolPointer.cs" />
+    <Compile Include="Controls\DrawTools\ToolPolygon.cs" />
+    <Compile Include="Controls\DrawTools\ToolRectangle.cs" />
+    <Compile Include="Controls\DrawTools\UndoManager.cs" />
+    <Compile Include="Controls\GainOffset.cs" />
+    <Compile Include="Controls\ImageViewBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ImageViewBox.Designer.cs">
+      <DependentUpon>ImageViewBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MessageListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MessageListBox.designer.cs">
+      <DependentUpon>MessageListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NavigateButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\NavigateButton.designer.cs">
+      <DependentUpon>NavigateButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RecipeListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\RecipeListBox.Designer.cs">
+      <DependentUpon>RecipeListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DrawTools\DrawToolControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DrawTools\DrawToolControl.Designer.cs">
+      <DependentUpon>DrawToolControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Template\FormMarkModify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\FormMarkModify.Designer.cs">
+      <DependentUpon>FormMarkModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Template\FormOriginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\FormOriginView.Designer.cs">
+      <DependentUpon>FormOriginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Template\LayerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\LayerControl.Designer.cs">
+      <DependentUpon>LayerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Template\TemplateMatchingSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\TemplateMatchingSetting.Designer.cs">
+      <DependentUpon>TemplateMatchingSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Template\TemplateMatchingSetting_Parameter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\TemplateMatchingSetting_CameraInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Template\TemplateMatchingSetting_Tablayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcGroupConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UcGroupConfig.designer.cs">
+      <DependentUpon>UcGroupConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\LogManager.cs" />
+    <Compile Include="Entities\PosCamera.cs" />
+    <Compile Include="Entities\PosPlatform.cs" />
+    <Compile Include="Entities\PosSignal.cs" />
+    <Compile Include="Entities\UserManager.cs" />
+    <Compile Include="FormAutoPos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAutoPos.Designer.cs">
+      <DependentUpon>FormAutoPos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRecipeNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRecipeNew.designer.cs">
+      <DependentUpon>FormRecipeNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRecipePick.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRecipePick.designer.cs">
+      <DependentUpon>FormRecipePick.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormTemplateSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormTemplateSet.Designer.cs">
+      <DependentUpon>FormTemplateSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\LanguageHelper.cs" />
+    <Compile Include="View\Parameter\ViewParameterBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Parameter\ViewParameterBase.designer.cs">
+      <DependentUpon>ViewParameterBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Parameter\ViewTemplatePara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Parameter\ViewTemplatePara.Designer.cs">
+      <DependentUpon>ViewTemplatePara.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewBase.Designer.cs">
+      <DependentUpon>ViewBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewManual.Designer.cs">
+      <DependentUpon>ViewManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewParameter.designer.cs">
+      <DependentUpon>ViewParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewSetting.Designer.cs">
+      <DependentUpon>ViewSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="AutoPosSetting.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\ViewMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewMain.Designer.cs">
+      <DependentUpon>ViewMain.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\DevStatusIndicator.resx">
+      <DependentUpon>DevStatusIndicator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DrawTools\DrawArea.resx">
+      <DependentUpon>DrawArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DrawTools\PropertiesDialog.resx">
+      <DependentUpon>PropertiesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImageViewBox.en-US.resx">
+      <DependentUpon>ImageViewBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ImageViewBox.resx">
+      <DependentUpon>ImageViewBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DrawTools\DrawToolControl.resx">
+      <DependentUpon>DrawToolControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Template\FormMarkModify.resx">
+      <DependentUpon>FormMarkModify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Template\FormOriginView.resx">
+      <DependentUpon>FormOriginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Template\LayerControl.resx">
+      <DependentUpon>LayerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Template\TemplateMatchingSetting.resx">
+      <DependentUpon>TemplateMatchingSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcGroupConfig.en-US.resx">
+      <DependentUpon>UcGroupConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UcGroupConfig.resx">
+      <DependentUpon>UcGroupConfig.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutoPos.en-US.resx">
+      <DependentUpon>FormAutoPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAutoPos.resx">
+      <DependentUpon>FormAutoPos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipeNew.en-US.resx">
+      <DependentUpon>FormRecipeNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipeNew.resx">
+      <DependentUpon>FormRecipeNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipePick.en-US.resx">
+      <DependentUpon>FormRecipePick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRecipePick.resx">
+      <DependentUpon>FormRecipePick.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTemplateSet.resx">
+      <DependentUpon>FormTemplateSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Parameter\ViewParameterBase.resx">
+      <DependentUpon>ViewParameterBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Parameter\ViewTemplatePara.resx">
+      <DependentUpon>ViewTemplatePara.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewBase.resx">
+      <DependentUpon>ViewBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewManual.en-US.resx">
+      <DependentUpon>ViewManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewManual.resx">
+      <DependentUpon>ViewManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewParameter.resx">
+      <DependentUpon>ViewParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewSetting.en-US.resx">
+      <DependentUpon>ViewSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewSetting.resx">
+      <DependentUpon>ViewSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\ViewMain.resx">
+      <DependentUpon>ViewMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HYC.AutoPosition.Extentions\HYC.AutoPosition.Extentions.csproj">
+      <Project>{340f3955-31d7-4099-89d5-108cb27158d5}</Project>
+      <Name>HYC.AutoPosition.Extentions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition.ImageProcess\HYC.AutoPosition.ImageProcess.csproj">
+      <Project>{9343b115-8344-465a-a9ac-c930f018e563}</Project>
+      <Name>HYC.AutoPosition.ImageProcess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HYC.AutoPosition\HYC.AutoPosition.csproj">
+      <Project>{a68a009f-c082-474e-a1c7-8aedcc0120d9}</Project>
+      <Name>HYC.AutoPosition</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Controls\DrawTools\Ellipse.cur" />
+    <Content Include="Controls\DrawTools\Line.cur" />
+    <Content Include="Controls\DrawTools\Pencil.cur" />
+    <Content Include="Controls\DrawTools\PolyHandle.cur" />
+    <Content Include="Controls\DrawTools\Rectangle.cur" />
+    <Content Include="Dlls\Basler.Pylon.dll" />
+    <Content Include="Dlls\Basler.Pylon.xml" />
+    <Content Include="Dlls\bgapi2_genicam_dotnet.dll" />
+    <Content Include="Dlls\CLIDelegate.dll" />
+    <Content Include="Dlls\IpxIGVDotNETWrapper64.dll" />
+    <Content Include="Dlls\MvCameraControl.Net.dll" />
+    <Content Include="Dlls\MvCameraControl.Net.xml" />
+    <Content Include="Dlls\ThridLibray.dll" />
+    <Content Include="en-US\HYC.AutoPosition.UI.resources.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HTCameraConfiguration.xml" />
+    <None Include="Resources\Area1.bmp" />
+    <None Include="Resources\Area.bmp" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Emgu.CV.3.2.0.2721\build\Emgu.CV.targets" Condition="Exists('..\packages\Emgu.CV.3.2.0.2721\build\Emgu.CV.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Emgu.CV.3.2.0.2721\build\Emgu.CV.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Emgu.CV.3.2.0.2721\build\Emgu.CV.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,850 @@
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csprojAssemblyReference.cache
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+D:\Software\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csprojAssemblyReference.cache
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Software\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csprojAssemblyReference.cache
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Code\2021-0916\Vision\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\2022-0816\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csprojAssemblyReference.cache
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\最新Code Backup\01-BOE项目\土星项目\2 号机\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Review\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\Review\2022-12-14\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\Review\2023-1-5\ReciewPC 代码\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-2-8\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-1\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-7\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-9\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-13\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-3-29\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+E:\Project\Code\2023-0403\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\ReciewPC\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\concrt140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\cvextern.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\msvcp140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\opencv_ffmpeg320_64.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x64\vcruntime140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\concrt140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\cvextern.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\msvcp140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\opencv_ffmpeg320.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\x86\vcruntime140.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTFile.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTImage.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\bgapi2_genicam_dotnet.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\ThridLibray.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\halcondotnet.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\CLIDelegate.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.pdb
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTCamera.GigE.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.HTXYT.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\HYC.AutoPosition.ImageProcess.pdb
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Emgu.CV.World.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\Basler.Pylon.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\bin\Debug\MvCameraControl.Net.xml
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn\02-Source\ReciewPC_AlignPerColumn\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Execute\HYC.SaturnMain\x64\concrt140.dll
+D:\Project\Execute\HYC.SaturnMain\x64\cvextern.dll
+D:\Project\Execute\HYC.SaturnMain\x64\msvcp140.dll
+D:\Project\Execute\HYC.SaturnMain\x64\opencv_ffmpeg320_64.dll
+D:\Project\Execute\HYC.SaturnMain\x64\vcruntime140.dll
+D:\Project\Execute\HYC.SaturnMain\x86\concrt140.dll
+D:\Project\Execute\HYC.SaturnMain\x86\cvextern.dll
+D:\Project\Execute\HYC.SaturnMain\x86\msvcp140.dll
+D:\Project\Execute\HYC.SaturnMain\x86\opencv_ffmpeg320.dll
+D:\Project\Execute\HYC.SaturnMain\x86\vcruntime140.dll
+D:\Project\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.dll
+D:\Project\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.pdb
+D:\Project\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.xml
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Execute\HYC.SaturnMain\x64\concrt140.dll
+D:\Execute\HYC.SaturnMain\x64\cvextern.dll
+D:\Execute\HYC.SaturnMain\x64\msvcp140.dll
+D:\Execute\HYC.SaturnMain\x64\opencv_ffmpeg320_64.dll
+D:\Execute\HYC.SaturnMain\x64\vcruntime140.dll
+D:\Execute\HYC.SaturnMain\x86\concrt140.dll
+D:\Execute\HYC.SaturnMain\x86\cvextern.dll
+D:\Execute\HYC.SaturnMain\x86\msvcp140.dll
+D:\Execute\HYC.SaturnMain\x86\opencv_ffmpeg320.dll
+D:\Execute\HYC.SaturnMain\x86\vcruntime140.dll
+D:\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.dll
+D:\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.pdb
+D:\Execute\HYC.SaturnMain\HYC.AutoPosition.Extentions.xml
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-11-21\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-11-21\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-11-21\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-11-21\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-11-21\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-1210\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-1210\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-1210\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-1210\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2023-1210\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\HYC.SaturnMain\x64\concrt140.dll
+D:\HYC.SaturnMain\x64\cvextern.dll
+D:\HYC.SaturnMain\x64\msvcp140.dll
+D:\HYC.SaturnMain\x64\opencv_ffmpeg320_64.dll
+D:\HYC.SaturnMain\x64\vcruntime140.dll
+D:\HYC.SaturnMain\x86\concrt140.dll
+D:\HYC.SaturnMain\x86\cvextern.dll
+D:\HYC.SaturnMain\x86\msvcp140.dll
+D:\HYC.SaturnMain\x86\opencv_ffmpeg320.dll
+D:\HYC.SaturnMain\x86\vcruntime140.dll
+D:\HYC.SaturnMain\HYC.AutoPosition.Extentions.dll
+D:\HYC.SaturnMain\HYC.AutoPosition.Extentions.pdb
+D:\HYC.SaturnMain\HYC.AutoPosition.Extentions.xml
+D:\Code\2024-0111\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0111\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0111\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0111\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0111\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0129\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0129\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0129\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0129\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0129\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0130\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0130\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0130\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0130\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0130\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0228\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0228\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0228\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0228\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0228\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0308\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0308\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0308\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0308\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0308\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0402\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0402\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0402\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0402\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0402\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0408\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0408\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0408\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0408\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0408\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0411\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0411\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0411\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0411\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0412\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0412\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0412\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0412\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0412\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0415\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0415\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0415\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0415\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0415\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0416\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0416\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0416\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0416\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0416\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0426\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0426\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0426\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0426\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0426\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Code\2024-0430\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Code\2024-0430\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Code\2024-0430\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Code\2024-0430\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Code\2024-0430\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0507\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0507\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0507\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0507\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0507\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\B7\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CopyComplete
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\2024-0508\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.AssemblyReference.cache
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.csproj.CoreCompileInputs.cache
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.dll
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.AutoPosition.Extentions.pdb
+D:\Project\HYC\Saturn3\02-Source\HYC.SaturnMain\HYC.SaturnMain\HYC.AutoPosition\HYC.AutoPosition.Extentions\obj\Debug\HYC.Auto.D8CEDEED.Up2Date

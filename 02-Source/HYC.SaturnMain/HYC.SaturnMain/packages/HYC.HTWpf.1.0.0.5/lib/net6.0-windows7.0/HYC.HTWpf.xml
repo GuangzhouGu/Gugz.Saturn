@@ -1,0 +1,2182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.HTWpf</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.HTWpf.Attach.BorderElement">
+            <summary>
+            Border相关的附加属性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.BorderElement.CornerRadiusProperty">
+            <summary>
+            圆角
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.BorderElement.SetCornerRadius(System.Windows.DependencyObject,System.Windows.CornerRadius)">
+            <summary>
+            设置CornerRadius
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.BorderElement.GetCornerRadius(System.Windows.DependencyObject)">
+            <summary>
+            获取CornerRadius
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.BorderElement.CircularProperty">
+            <summary>
+            圆环
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.BorderElement.SetCircular(System.Windows.DependencyObject,System.Boolean)">
+            <summary>
+            设置Circular
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.BorderElement.GetCircular(System.Windows.DependencyObject)">
+            <summary>
+            获取Circular
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Attach.IconElement">
+            <summary>
+            Icon元素的附加属性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.IconElement.GeometryProperty">
+            <summary>
+            几何形状
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.SetGeometry(System.Windows.DependencyObject,System.Windows.Media.Geometry)">
+            <summary>
+            设置几何形状
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.GetGeometry(System.Windows.DependencyObject)">
+            <summary>
+            获取几何形状
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.IconElement.WidthProperty">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.SetWidth(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            设置Width
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.GetWidth(System.Windows.DependencyObject)">
+            <summary>
+            获取Width
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.IconElement.HeightProperty">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.SetHeight(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            设置Height
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.IconElement.GetHeight(System.Windows.DependencyObject)">
+            <summary>
+            获取Height
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Attach.VisualElement">
+            <summary>
+            Visual元素的附加属性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.VisualElement.HighlightBrushProperty">
+            <summary>
+            高亮画刷
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.SetHighlightBrush(System.Windows.DependencyObject,System.Windows.Media.Brush)">
+            <summary>
+            设置HighlightBrush
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.GetHighlightBrush(System.Windows.DependencyObject)">
+            <summary>
+            获取HighlightBrush
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.VisualElement.HighlightBackgroundProperty">
+            <summary>
+            高亮背景
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.SetHighlightBackground(System.Windows.DependencyObject,System.Windows.Media.Brush)">
+            <summary>
+            设置HighlightBackground
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.GetHighlightBackground(System.Windows.DependencyObject)">
+            <summary>
+            获取HighlightBackground
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.VisualElement.HighlightBorderBrushProperty">
+            <summary>
+            高亮边框画刷
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.SetHighlightBorderBrush(System.Windows.DependencyObject,System.Windows.Media.Brush)">
+            <summary>
+            设置HighlightBorderBrush
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.GetHighlightBorderBrush(System.Windows.DependencyObject)">
+            <summary>
+            获取HighlightBorderBrush
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.VisualElement.HighlightForegroundProperty">
+            <summary>
+            高亮前景色
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.SetHighlightForeground(System.Windows.DependencyObject,System.Windows.Media.Brush)">
+            <summary>
+            设置HighlightForeground
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.GetHighlightForeground(System.Windows.DependencyObject)">
+            <summary>
+            获取HighlightForeground
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HYC.HTWpf.Attach.VisualElement.TextProperty">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.SetText(System.Windows.DependencyObject,System.String)">
+            <summary>
+            设置Text
+            </summary>
+            <param name="element"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Attach.VisualElement.GetText(System.Windows.DependencyObject)">
+            <summary>
+            获取Text
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Common.NotificationObject">
+            <summary>
+            属性变化通知类
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Common.NotificationObject.PropertyChanged">
+            <summary>
+            属性更改通知
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Common.NotificationObject.RaisePropertyChanged(System.String)">
+            <summary>
+            触发属性更改
+            </summary>
+            <param name="propertyName">属性名</param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.NotificationObject.ExtractPropertyName``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            反射获取属性名
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="propertyExpression">表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Common.NotificationObject.RaisePropertyChanged``1(System.Linq.Expressions.Expression{System.Func{``0}})">
+            <summary>
+            触发属性更改
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="propertyExpression">表达式</param>
+        </member>
+        <member name="T:HYC.HTWpf.Common.RelayCommand">
+            <summary>
+            命令的基类
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Common.RelayCommand.CanExecuteChanged">
+            <summary>
+            当出现影响是否应执行该命令的更改时发生。
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand.#ctor(System.Action,System.Func{System.Boolean})">
+            <summary>
+            构造方法
+            </summary>
+            <param name="execute"></param>
+            <param name="canExecute"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand.CanExecute(System.Object)">
+            <summary>
+            定义用于确定此命令是否可以在其当前状态下执行的方法。
+            </summary>
+            <param name="parameter">此命令使用的数据</param>
+            <returns>如果可以执行此命令，则为 true；否则为 false</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand.Execute(System.Object)">
+            <summary>
+            定义在调用此命令时调用的方法
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand.RaiseCanExecuteChanged">
+            <summary>
+            执行CanExecuteChanged事件
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Common.RelayCommand`1">
+            <summary>
+            命令的基类
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Common.RelayCommand`1.CanExecuteChanged">
+            <summary>
+            当出现影响是否应执行该命令的更改时发生。
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand`1.#ctor(System.Action{`0},System.Func{`0,System.Boolean})">
+            <summary>
+            构造方法
+            </summary>
+            <param name="execute"></param>
+            <param name="canExecute"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand`1.CanExecute(System.Object)">
+            <summary>
+            定义用于确定此命令是否可以在其当前状态下执行的方法。
+            </summary>
+            <param name="parameter">此命令使用的数据</param>
+            <returns>如果可以执行此命令，则为 true；否则为 false</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand`1.Execute(System.Object)">
+            <summary>
+            定义在调用此命令时调用的方法
+            </summary>
+            <param name="parameter"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RelayCommand`1.RaiseCanExecuteChanged">
+            <summary>
+            执行CanExecuteChanged事件
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Common.RoutedEventArgs`1">
+            <summary>
+            带有一个泛型参数的路由事件参数类
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:HYC.HTWpf.Common.RoutedEventArgs`1.Info">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RoutedEventArgs`1.#ctor(`0)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Common.RoutedEventArgs`1.#ctor(System.Windows.RoutedEvent,System.Object)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="routedEvent"></param>
+            <param name="source"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.CirclePanel">
+            <summary>
+            环形Panel
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.CirclePanel.DiameterProperty">
+            <summary>
+            直径
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.CirclePanel.Diameter">
+            <summary>
+            直径
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.CirclePanel.KeepVerticalProperty">
+            <summary>
+            保持垂直
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.CirclePanel.KeepVertical">
+            <summary>
+            保持垂直
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.CirclePanel.OffsetAngleProperty">
+            <summary>
+            起始角度
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.CirclePanel.OffsetAngle">
+            <summary>
+            起始角度
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.CirclePanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            测量
+            </summary>
+            <param name="availableSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.CirclePanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            排列
+            </summary>
+            <param name="finalSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.ControlBox">
+            <summary>
+            ControlBox.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ControlBox
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ControlBox.MaxBtnVisibilityProperty">
+            <summary>
+            指示是否显示最大化按钮
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ControlBox.MinBtnVisibilityProperty">
+            <summary>
+            指示是否显示最小化按钮
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ControlBox.IsMaximizedProperty">
+            <summary>
+            指示窗口是否最大化
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ControlBox.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ControlBox.MaxBtnVisibility">
+            <summary>
+            指示是否显示最大化按钮
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ControlBox.MinBtnVisibility">
+            <summary>
+            指示是否显示最小化按钮
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ControlBox.IsMaximized">
+            <summary>
+            指示窗口是否最大化
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ControlBox.IsMaximizedChanged(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            窗口状态变化时，更改最大化按钮的内容
+            </summary>
+            <param name="d"></param>
+            <param name="baseValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ControlBox.StackPanel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            处理按钮事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ControlBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.DataGridUnit">
+            <summary>
+            DataGridUnit.xaml 的交互逻辑
+            </summary>
+            <summary>
+            DataGridUnit
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.View">
+            <summary>
+            数据显示控件
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.DataSource">
+            <summary>
+            数据源
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.CountPerPage">
+            <summary>
+            每页的记录数
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.CountPerPageProperty">
+            <summary>
+            每页的记录数
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.TotalCount">
+            <summary>
+            总的记录条数
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.TotalCountProperty">
+            <summary>
+            总的记录条数
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.CurPage">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.CurPageProperty">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.TotalPage">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.TotalPageProperty">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.SettingVisibility">
+            <summary>
+            设置页的可见性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.SettingVisibilityProperty">
+            <summary>
+            设置页的可见性
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.ExportVisibility">
+            <summary>
+            导出页的可见性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.DataGridUnit.ExportVisibilityProperty">
+            <summary>
+            导出页的可见性
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.PrevPageCmd">
+            <summary>
+            上一个画面命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.NextPageCmd">
+            <summary>
+            下一个画面命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.SettingCmd">
+            <summary>
+            设置命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.SettingSaveCmd">
+            <summary>
+            保存设置命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.SettingCancelCmd">
+            <summary>
+            取消保存设置命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.ExportCmd">
+            <summary>
+            导出命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.ExportCsvCmd">
+            <summary>
+            导出到csv命令
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.DataGridUnit.ExportCancelCmd">
+            <summary>
+            取消导出命令
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.UpdateDataGridView">
+            <summary>
+            更新数据显示
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.PrevPage">
+            <summary>
+            上一页
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.NextPage">
+            <summary>
+            下一页
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.CanSwitchPrevPage">
+            <summary>
+            判断是否可以切换上一页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.CanSwitchNextPage">
+            <summary>
+            判断是否可以切换下一页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.CurPageChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            当前页码属性发生了变化
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.ProcessCurPageChanged">
+            <summary>
+            当前页码变化时，更新控件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.Export">
+            <summary>
+            导出
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.Setting">
+            <summary>
+            设置
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.SettingSave">
+            <summary>
+            保存设置
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.SettingCancel">
+            <summary>
+            取消设置
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.ExportCsv">
+            <summary>
+            导出数据到csv
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.DataTableToCsv(System.Data.DataTable,System.String)">
+            <summary>
+            DataTable转csv文件
+            </summary>
+            <param name="dt"></param>
+            <param name="strFilePath"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.SetExportProgressMaxValue(System.Int32)">
+            <summary>
+            设置进度条的最大值
+            </summary>
+            <param name="val"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.ShowExportProgress(System.Boolean,System.Int32)">
+            <summary>
+            显示导出进度
+            </summary>
+            <param name="isVisable"></param>
+            <param name="val"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.ExportCancel">
+            <summary>
+            取消导出
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.dataGrid1_LoadingRow(System.Object,System.Windows.Controls.DataGridRowEventArgs)">
+            <summary>
+            显示行号
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.dataGrid1_AutoGeneratingColumn(System.Object,System.Windows.Controls.DataGridAutoGeneratingColumnEventArgs)">
+            <summary>
+            设置时间列的格式
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.DataGridUnit.PrevPageClicked">
+            <summary>
+            点击了上一页按钮的事件
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.DataGridUnit.NextPageClicked">
+            <summary>
+            点击了下一页按钮的事件
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.DataGridUnit.PageChanged">
+            <summary>
+            页码改变事件
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.DataGridUnit.SettingChanged">
+            <summary>
+            设置更改事件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.DataGridUnit.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.HTMessageBox">
+            <summary>
+            自定义的WPF消息提示框
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTMessageBox.Result">
+            <summary>
+            消息对话框结果
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#cctor">
+            <summary>
+            静态构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.OnApplyTemplate">
+            <summary>
+            应用模板时，绑定事件和设置按钮可见性
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.btnOK_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            确定
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.btnCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            取消
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#ctor(System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="message">消息文本</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#ctor(System.String,System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="message">消息文本</param>
+            <param name="caption">标题</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#ctor(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="message">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="button">按钮类型</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#ctor(System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="message">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="image">图标类型</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.#ctor(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="message">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="button">按钮类型</param>
+            <param name="image">图标类型</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.DisplayButtons(System.Windows.MessageBoxButton)">
+            <summary>
+            设置按钮可见性
+            </summary>
+            <param name="button"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTMessageBox.DisplayImage(System.Windows.MessageBoxImage)">
+            <summary>
+            设置图标样式
+            </summary>
+            <param name="image"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.HTWindow">
+            <summary>
+            自定义窗口类
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.NonClientAreaContentProperty">
+            <summary>
+            非客户区内容
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.NonClientAreaContent">
+            <summary>
+            非客户区内容
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.NonClientAreaBackgroundProperty">
+            <summary>
+            非客户区的背景色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.NonClientAreaBackground">
+            <summary>
+            非客户区的背景色
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.NonClientAreaForegroundProperty">
+            <summary>
+            非客户区的前景色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.NonClientAreaForeground">
+            <summary>
+            非客户区的前景色
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.NonClientAreaHeightProperty">
+            <summary>
+            非客户区的高度
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.NonClientAreaHeight">
+            <summary>
+            非客户区的高度
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.ShowNonClientAreaProperty">
+            <summary>
+            是否显示非客户区
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.ShowNonClientArea">
+            <summary>
+            是否显示非客户区
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.ShowTitleProperty">
+            <summary>
+            是否显示标题
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.ShowTitle">
+            <summary>
+            是否显示标题
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.IsFullScreenProperty">
+            <summary>
+            是否全屏
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.IsFullScreen">
+            <summary>
+            是否全屏
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.ShowIconProperty">
+            <summary>
+            是否显示Icon
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.ShowIcon">
+            <summary>
+            是否显示Icon
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.HTWindow.IsNonClientActiveProperty">
+            <summary>
+            非客户区的Active状态
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.HTWindow.IsNonClientActive">
+            <summary>
+            非客户区的Active状态
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.#cctor">
+            <summary>
+            绑定默认的Style
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnApplyTemplate">
+            <summary>
+            在派生类中重写后，每当应用程序代码或内部进程调用 System.Windows.FrameworkElement.ApplyTemplate，都将调用此方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnSourceInitialized(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Window.SourceInitialized 事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnStateChanged(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Window.StateChanged 事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnLoaded(System.Windows.RoutedEventArgs)">
+            <summary>
+            窗体加载
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnContentRendered(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Window.ContentRendered 事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnActivated(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Window.Activated 事件。
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnDeactivated(System.EventArgs)">
+            <summary>
+            引发 System.Windows.Window.Deactivated 事件。
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnShowNonClientAreaChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            属性ShowNonClientArea发生了改变
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.SwitchShowNonClientArea(System.Boolean)">
+            <summary>
+            切换非客户区的显示
+            </summary>
+            <param name="showNonClientArea"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.OnIsFullScreenChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            属性IsFullScreen发生了改变
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.SwitchIsFullScreen(System.Boolean)">
+            <summary>
+            切换全屏状态
+            </summary>
+            <param name="isFullScreen"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.HTWindow.ShowSystemMenu(System.Object,System.Windows.Input.ExecutedRoutedEventArgs)">
+            <summary>
+            显示左上角的系统菜单
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.ImageBox">
+            <summary>
+            ImageBox.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ImageBox
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageBox.CrossLineVisibilityProperty">
+            <summary>
+            十字线可见性
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.Source">
+            <summary>
+            图像源
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.ImageBackground">
+            <summary>
+            图像控件的背景色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.CrossLineVisibility">
+            <summary>
+            十字线可见性
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.IsDrawCrossLine">
+            <summary>
+            是否绘制十字线
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.IsRegionSelectEnabled">
+            <summary>
+            是否可以框选区域
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.SelectedRegion">
+            <summary>
+            框选的区域
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageBox.MousePos">
+            <summary>
+            鼠标位置
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            鼠标抬起，记录位置
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.Img_RegionSelected(System.Object,HYC.HTWpf.Controls.RegionSelectedEventArgs)">
+            <summary>
+            图像区域选择
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.SetSelectedRegion(System.Windows.Int32Rect)">
+            <summary>
+            设置框选区域
+            </summary>
+            <param name="rect"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.ClearSelectedRegion">
+            <summary>
+            清除框选区域
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.ImageBox.RegionSelected">
+            <summary>
+            图像区域选择事件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageBox.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.ImageViewer">
+            <summary>
+            ImageViewer.xaml 的交互逻辑
+            </summary>
+            <summary>
+            ImageViewer
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.SourceProperty">
+            <summary>
+            图像源
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.ScaleProperty">
+            <summary>
+            缩放比例，默认值为1.0
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.ScaleCenterXProperty">
+            <summary>
+             缩放中心X，默认值为0.0
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.ScaleCenterYProperty">
+            <summary>
+            缩放中心Y，默认值为0.0
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.OffsetXProperty">
+            <summary>
+            平移X，默认值为0.0
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.OffsetYProperty">
+            <summary>
+            平移Y，默认值为0.0
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.ImageXProperty">
+            <summary>
+            鼠标当前位置对应的图像坐标X
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.ImageYProperty">
+            <summary>
+            鼠标当前位置对应的图像坐标Y
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.PixelColorProperty">
+            <summary>
+            鼠标当前位置对应的图像像素颜色
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.ImageViewer.SelectedRegionProperty">
+            <summary>
+            鼠标选中区域
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.Source">
+            <summary>
+            图像源
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.Scale">
+            <summary>
+            缩放比例，默认值为1.0
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.ScaleCenterX">
+            <summary>
+            缩放中心X，默认值为0.0
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.ScaleCenterY">
+            <summary>
+            缩放中心Y，默认值为0.0
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.OffsetX">
+            <summary>
+            平移X，默认值为0.0
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.OffsetY">
+            <summary>
+            平移Y，默认值为0.0
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.ImageX">
+            <summary>
+            鼠标当前位置对应的图像坐标X
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.ImageY">
+            <summary>
+            鼠标当前位置对应的图像坐标Y
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.PixelColor">
+            <summary>
+            鼠标当前位置对应的图像像素颜色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.ImageViewer.SelectedRegion">
+            <summary>
+            鼠标选中区域
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.OnSelectedRegionChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            SelectedRegion属性发生改变
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseWheel(System.Object,System.Windows.Input.MouseWheelEventArgs)">
+            <summary>
+            鼠标滚轮改变缩放比例
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.ZoomIn(System.Boolean)">
+            <summary>
+            图像放大
+            </summary>
+            <param name="isWheel">是否是滚轮事件</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.ZoomOut(System.Boolean)">
+            <summary>
+            图像缩小
+            </summary>
+            <param name="isWheel">是否是滚轮事件</param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            鼠标按下，记录鼠标位置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseUp(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            鼠标抬起，记录平移位置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseMove(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            鼠标移动，更改平移位置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.NormalizePoint(System.Windows.Point)">
+            <summary>
+            规范坐标范围
+            </summary>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            鼠标进入控件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.border_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            鼠标离开控件，默认鼠标抬起，记录平移位置
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.btnDraw_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            进入绘图模式
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.btnDraw_Unchecked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            退出绘图模式
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.btnZoomIn_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            图像放大
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.btnZoomOut_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            图像缩小
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.btnDelete_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            清除选中框
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.ImageViewer.RegionSelected">
+            <summary>
+            图像区域选择事件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.ImageViewer.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.RegionSelectedEventArgs">
+            <summary>
+            图像区域选择事件参数类
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.RegionSelectedEventArgs.Region">
+            <summary>
+            图像区域
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.MessageBox">
+            <summary>
+            自定义的消息提示框
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.Show(System.String)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="messageBoxText">消息文本</param>
+            <returns>消息对话框结果</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.Show(System.String,System.String)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="messageBoxText">消息文本</param>
+            <param name="caption">标题</param>
+            <returns>消息对话框结果</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="messageBoxText">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="button">按钮类型</param>
+            <returns>消息对话框结果</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxImage)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="messageBoxText">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="icon">图标类型</param>
+            <returns>消息对话框结果</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.Show(System.String,System.String,System.Windows.MessageBoxButton,System.Windows.MessageBoxImage)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="messageBoxText">消息文本</param>
+            <param name="caption">标题</param>
+            <param name="button">按钮类型</param>
+            <param name="icon">图标类型</param>
+            <returns>消息对话框结果</returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.MessageBox.GetWindow(HYC.HTWpf.Controls.HTMessageBox)">
+            <summary>
+            创建消息对话框
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.TimePicker">
+            <summary>
+            时间选择器
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.SelectedTimeChangedEvent">
+            <summary>
+            选择的时间发生了改变
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.TimePicker.SelectedTimeChanged">
+            <summary>
+            选择的时间发生了改变
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.#cctor">
+            <summary>
+            静态构造方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.#ctor">
+            <summary>
+            构造方法
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.TimeFormatProperty">
+            <summary>
+            时间的格式
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.TimeFormat">
+            <summary>
+            时间的格式
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.DisplayTime">
+            <summary>
+            显示的时间
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.DisplayTimeProperty">
+            <summary>
+            显示的时间
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.IsDropDownOpen">
+            <summary>
+            下拉框是否打开
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.IsDropDownOpenProperty">
+            <summary>
+            下拉框是否打开
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.OnIsDropDownOpenChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            下拉框打开时，将时间赋值给TimeSelector
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.SelectedTime">
+            <summary>
+            当前选中的时间
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.SelectedTimeProperty">
+            <summary>
+            当前选中的时间
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.Text">
+            <summary>
+            当前显示的文本
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.TextProperty">
+            <summary>
+            当前显示的文本
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.SetTextInternal(System.String)">
+            <summary>
+            Sets the local Text property without breaking bindings
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.SelectionBrushProperty">
+            <summary>
+            文本框的选中色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.SelectionBrush">
+            <summary>
+            文本框的选中色
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.SelectionOpacityProperty">
+            <summary>
+            文本框的选中透明度
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.SelectionOpacity">
+            <summary>
+            文本框的选中透明度
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimePicker.CaretBrushProperty">
+            <summary>
+            文本框的水印颜色
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimePicker.CaretBrush">
+            <summary>
+            文本框的水印颜色
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.OnApplyTemplate">
+            <summary>
+            应用模板时，绑定事件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.ToString">
+            <summary>
+            显示当前选中的时间
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.DateTimeToString(System.DateTime)">
+            <summary>
+            按TimeFormat将时间转换成字符串
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimePicker.OnGotFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            获取焦点时，将焦点设置到TextBox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.TimeSelector">
+            <summary>
+            时间选择控件
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimeSelector.SelectedTimeChangedEvent">
+            <summary>
+            选择的时间发生了改变
+            </summary>
+        </member>
+        <member name="E:HYC.HTWpf.Controls.TimeSelector.SelectedTimeChanged">
+            <summary>
+            选择的时间发生了改变
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimeSelector.Hour">
+            <summary>
+            时
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimeSelector.HourProperty">
+            <summary>
+            时
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimeSelector.Minute">
+            <summary>
+            分
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimeSelector.MinuteProperty">
+            <summary>
+            分
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.TimeSelector.Second">
+            <summary>
+            秒
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.TimeSelector.SecondProperty">
+            <summary>
+            秒
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.OnApplyTemplate">
+            <summary>
+            应用模板时，绑定事件
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BdrHour_MouseWheel(System.Object,System.Windows.Input.MouseWheelEventArgs)">
+            <summary>
+            滚轮更改时间，小时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BdrMinute_MouseWheel(System.Object,System.Windows.Input.MouseWheelEventArgs)">
+            <summary>
+            滚轮更改时间，分钟
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BdrSecond_MouseWheel(System.Object,System.Windows.Input.MouseWheelEventArgs)">
+            <summary>
+            滚轮更改时间，秒
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnLastHour_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            上一个小时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnNextHour_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            下一个小时
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnLastMinute_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            上一分钟
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnNextMinute_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            下一分钟
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnLastSecond_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            上一秒
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnNextSecond_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            下一秒
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.BtnConfirm_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            确认
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.HourChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            小时属性发生了变化
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.MinuteChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            分钟属性发上了变化
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.SecondChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            秒属性发生了变化
+            </summary>
+            <param name="d"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.UpdateHourButtons">
+            <summary>
+            更新小时相关的按钮
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.UpdateMinuteButtons">
+            <summary>
+            更新分钟相关的按钮
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.TimeSelector.UpdateSecondButtons">
+            <summary>
+            更新秒相关的按钮
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Controls.WatermarkTextBox">
+            <summary>
+            水印文本框
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Controls.WatermarkTextBox.WatermarkProperty">
+            <summary>
+            水印
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Controls.WatermarkTextBox.Watermark">
+            <summary>
+            水印
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Controls.WatermarkTextBox.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            获取焦点时，选中文本
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.BooleanRevertConverter">
+            <summary>
+            Boolean反转转换器
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.BooleanRevertConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.BooleanRevertConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            反向准换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.BorderCircularConverter">
+            <summary>
+            圆环形Border CornerRadius计算转换
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.BorderClipConverter">
+            <summary>
+            Border按CornerRadius裁剪的抓换
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.Number2PercentageConverter">
+            <summary>
+            计算两个数字的比例的转换
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.ObjectNullToVisibilityConverter">
+            <summary>
+            空值与可见性的转换
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.PercentConverter">
+            <summary>
+            double转换成百分比字符串
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.PercentConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.PercentConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            反向转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.String2VisibilityConverter">
+            <summary>
+            转换器，string不为空时可见
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.String2VisibilityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.String2VisibilityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            反向转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.String2VisibilityReConverter">
+            <summary>
+            转换器，string为空时可见
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.String2VisibilityReConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.String2VisibilityReConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            反向转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.ToHalfConverter">
+            <summary>
+            输入值(double)除以2的转换
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.ToHalfConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Converter.ToHalfConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            反向转换
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Converter.TreeViewItemMarginConverter">
+            <summary>
+            TreeViewItem的Margin计算
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Data.OperationResult">
+            <summary>
+            表示一个操作的返回结果信息
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Data.OperationResult.Success(System.String)">
+            <summary>
+            成功
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Data.OperationResult.Failed(System.String)">
+            <summary>
+            失败
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Data.OperationResult`1">
+            <summary>
+            表示一个操作的返回结果信息
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Data.OperationResult`1.ResultType">
+            <summary>
+            操作结果
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Data.OperationResult`1.Data">
+            <summary>
+            返回数据
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Data.OperationResult`1.Message">
+            <summary>
+            操作消息（包含错误原因等数据）
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Data.OperationResultType">
+            <summary>
+            表示一个操作的返回结果类型
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Data.OperationResultType.Success">
+            <summary>
+            成功
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Data.OperationResultType.Failed">
+            <summary>
+            失败
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Data.OperationResultType.None">
+            <summary>
+            无数据
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Data.ValueBoxes">
+            <summary>
+                装箱后的值类型（用于提高效率）
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Extension.UIElementExtension">
+            <summary>
+            UI元素的拓展方法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Extension.UIElementExtension.Show(System.Windows.UIElement)">
+            <summary>
+            显示元素
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Extension.UIElementExtension.Show(System.Windows.UIElement,System.Boolean)">
+            <summary>
+            显示元素
+            </summary>
+            <param name="element"></param>
+            <param name="show"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Extension.UIElementExtension.Hide(System.Windows.UIElement)">
+            <summary>
+            不现实元素，但保留空间
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Extension.UIElementExtension.Collapse(System.Windows.UIElement)">
+            <summary>
+            不显示元素，且不保留空间
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="T:HYC.HTWpf.Helper.HTWpfLangHelper">
+            <summary>
+            多语言帮助模块
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.HTWpfLangHelper.SetLanguage(System.String)">
+            <summary>
+            设置HTWpf模板的语言
+            </summary>
+            <param name="lang"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.HTWpfLangHelper.FindResourceDict(System.String,System.Collections.ObjectModel.Collection{System.Windows.ResourceDictionary})">
+            <summary>
+            找到指定的资源
+            </summary>
+            <param name="path"></param>
+            <param name="collection"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Helper.WpfImageConverter">
+            <summary>
+            WPF图像转换
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.WpfImageConverter.DeleteObject(System.IntPtr)">
+            <summary>
+            删除内存
+            </summary>
+            <param name="hObject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.WpfImageConverter.BitmapToBitmapSource(System.Drawing.Bitmap)">
+            <summary>
+            BitmapToBitmapSource
+            </summary>
+            <param name="bmp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.WpfImageConverter.BitmapToBitmapImage(System.Drawing.Bitmap)">
+            <summary>
+            BitmapToBitmapImage
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Helper.WpfImageConverter.BitmapSourceToBitmap(System.Windows.Media.Imaging.BitmapSource)">
+            <summary>
+            BitmapSourceToBitmap
+            </summary>
+            <param name="bitmapImage"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Tools.Helper.ArithmeticHelper">
+            <summary>
+            包含内部使用的一些简单算法
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ArithmeticHelper.DivideInt2Arr(System.Int32,System.Int32)">
+            <summary>
+            平分一个整数到一个数组中
+            </summary>
+            <param name="num"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ArithmeticHelper.CalSafePoint(System.Windows.FrameworkElement,System.Windows.FrameworkElement,System.Windows.Thickness)">
+            <summary>
+            计算控件在窗口中的可见坐标
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ArithmeticHelper.GetLayoutRect(System.Windows.FrameworkElement)">
+            <summary>
+            获取布局范围框
+            </summary>
+            <param name="element"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ArithmeticHelper.CalAngle(System.Windows.Point,System.Windows.Point)">
+            <summary>
+            计算两点的连线和x轴的夹角
+            </summary>
+            <param name="center"></param>
+            <param name="p"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ArithmeticHelper.CalNormal(System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D,System.Windows.Media.Media3D.Point3D)">
+            <summary>
+            计算法线
+            </summary>
+            <param name="p0"></param>
+            <param name="p1"></param>
+            <param name="p2"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTWpf.Tools.Helper.FullScreenHelper">
+            <summary>
+            用来使窗口变得全屏的辅助类
+            采用设置窗口位置和尺寸，确保盖住整个屏幕的方式来实现全屏
+            目前已知需要满足的条件是：窗口盖住整个屏幕、窗口没有WS_THICKFRAME样式、窗口不能有标题栏且最大化
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Helper.FullScreenHelper.BeforeFullScreenWindowPlacementProperty">
+            <summary>
+            用于记录窗口全屏前位置的附加属性
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Helper.FullScreenHelper.BeforeFullScreenWindowStyleProperty">
+            <summary>
+            用于记录窗口全屏前样式的附加属性
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.FullScreenHelper.StartFullScreen(System.Windows.Window)">
+            <summary>
+            开始进入全屏模式
+            进入全屏模式后，窗口可通过 API 方式（也可以用 Win + Shift + Left/Right）移动，调整大小，但会根据目标矩形寻找显示器重新调整到全屏状态。
+            进入全屏后，不要修改样式等窗口属性，在退出时，会恢复到进入前的状态
+            进入全屏模式后会禁用 DWM 过渡动画
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.FullScreenHelper.EndFullScreen(System.Windows.Window)">
+            <summary>
+            退出全屏模式
+            窗口会回到进入全屏模式时保存的状态
+            退出全屏模式后会重新启用 DWM 过渡动画
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.FullScreenHelper.KeepFullScreenHook(System.IntPtr,System.Int32,System.IntPtr,System.IntPtr,System.Boolean@)">
+            <summary>
+            确保窗口全屏的Hook
+            使用HandleProcessCorruptedStateExceptions，防止访问内存过程中因为一些致命异常导致程序崩溃
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Tools.Helper.ResourceHelper">
+            <summary>
+            资源帮助类
+            </summary>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.ResourceHelper.GetResource``1(System.String)">
+            <summary>
+            获取资源
+            </summary>
+            <param name="key">资源名</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.WindowHelper.GetActiveWindow">
+            <summary>
+                获取当前应用中处于激活的一个窗口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.WindowHelper.SetWindowToForeground(System.Windows.Window)">
+            <summary>
+                让窗口激活作为前台最上层窗口
+            </summary>
+            <param name="window"></param>
+        </member>
+        <member name="M:HYC.HTWpf.Tools.Helper.WindowHelper.TouchDragMove(System.Windows.Window)">
+            <summary>
+                开始使用触摸拖动窗口，在触摸抬起后自动结束
+            </summary>
+        </member>
+        <member name="P:HYC.HTWpf.Tools.Interop.InteropValues.WINDOWPLACEMENT.Default">
+            <summary>
+            Gets the default (empty) value.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_ASYNCWINDOWPOS">
+            <summary>
+                If the calling thread and the thread that owns the window are attached to different input queues, the system posts
+                the request to the thread that owns the window. This prevents the calling thread from blocking its execution while
+                other threads process the request.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_DEFERERASE">
+            <summary>
+                Prevents generation of the WM_SYNCPAINT message.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_DRAWFRAME">
+            <summary>
+                Draws a frame (defined in the window's class description) around the window.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_FRAMECHANGED">
+            <summary>
+                Applies new frame styles set using the SetWindowLong function. Sends a WM_NCCALCSIZE message to the window, even if
+                the window's size is not being changed. If this flag is not specified, WM_NCCALCSIZE is sent only when the window's
+                size is being changed.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_HIDEWINDOW">
+            <summary>
+                Hides the window.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOACTIVATE">
+            <summary>
+                Does not activate the window. If this flag is not set, the window is activated and moved to the top of either the
+                topmost or non-topmost group (depending on the setting of the hWndInsertAfter parameter).
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOCOPYBITS">
+            <summary>
+                Discards the entire contents of the client area. If this flag is not specified, the valid contents of the client
+                area are saved and copied back into the client area after the window is sized or repositioned.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOMOVE">
+            <summary>
+                Retains the current position (ignores X and Y parameters).
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOOWNERZORDER">
+            <summary>
+                Does not change the owner window's position in the Z order.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOREDRAW">
+            <summary>
+                Does not redraw changes. If this flag is set, no repainting of any kind occurs. This applies to the client area,
+                the nonclient area (including the title bar and scroll bars), and any part of the parent window uncovered as a
+                result of the window being moved. When this flag is set, the application must explicitly invalidate or redraw any
+                parts of the window and parent window that need redrawing.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOREPOSITION">
+            <summary>
+                Same as the SWP_NOOWNERZORDER flag.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOSENDCHANGING">
+            <summary>
+                Prevents the window from receiving the WM_WINDOWPOSCHANGING message.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOSIZE">
+            <summary>
+                Retains the current size (ignores the cx and cy parameters).
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_NOZORDER">
+            <summary>
+                Retains the current Z order (ignores the hWndInsertAfter parameter).
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowPositionFlags.SWP_SHOWWINDOW">
+            <summary>
+                Displays the window.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowStyles.WS_MAXIMIZE">
+            <summary>
+                The window is initially maximized.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowStyles.WS_MAXIMIZEBOX">
+            <summary>
+                The window has a maximize button. Cannot be combined with the WS_EX_CONTEXTHELP style. The WS_SYSMENU style must
+                also be specified.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowStyles.WS_MINIMIZE">
+            <summary>
+                The window is initially minimized. Same as the WS_ICONIC style.
+            </summary>
+        </member>
+        <member name="F:HYC.HTWpf.Tools.Interop.InteropValues.WindowStyles.WS_THICKFRAME">
+            <summary>
+                The window has a sizing border. Same as the WS_SIZEBOX style.
+            </summary>
+        </member>
+        <member name="T:HYC.HTWpf.Tools.Interop.InteropValues.SW">
+            <summary>
+            ShowWindow options
+            </summary>
+        </member>
+    </members>
+</doc>

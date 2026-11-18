@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34407.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS\DFS.csproj", "{A3285975-7849-4BCC-A6F3-75A053982987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HYC.SaturnDFS", "HYC.SaturnDFS\HYC.SaturnDFS.csproj", "{398932F9-73AD-47FE-850F-17E6DEF8434F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398932F9-73AD-47FE-850F-17E6DEF8434F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398932F9-73AD-47FE-850F-17E6DEF8434F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398932F9-73AD-47FE-850F-17E6DEF8434F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398932F9-73AD-47FE-850F-17E6DEF8434F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49C752A8-E219-4056-9F2A-3672DE2490F0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,394 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.HTTools</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.HTTools.HTClassHelper">
+            <summary>
+            类辅助操作，将类成员以及类值格式化成字符串
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTClassHelper.FormatClassObjectLog(System.Object)">
+            <summary>
+            将类成员以及类值格式化成字符串
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTClassHelper.GetChildClass``1">
+            <summary>
+            返回继承了指定类型的全部子类的实例集合
+            </summary>
+            <typeparam name="T">泛型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTClassHelper.ObjectToBytes``1(``0)">
+            <summary>
+            对象转字节数组，类需要标记为Serializable
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTClassHelper.BytesToObject``1(System.Byte[])">
+            <summary>
+            字节数组转对象，类需要标记为Serializable
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTTools.HTCommonHelper">
+            <summary>
+            公用方法集合
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTCommonHelper.PingIP(System.String)">
+            <summary>
+            执行PING
+            </summary>
+            <param name="strIP">目标IP</param>
+            <returns>true:ping成功 false:ping失败</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTCommonHelper.GetMD5(System.String)">
+            <summary>
+            获取字符串的MD5值
+            </summary>
+            <param name="str">输入字符串</param>
+            <returns>输出字符串</returns>
+        </member>
+        <member name="T:HYC.HTTools.HTDeepCopyHelper">
+            <summary>
+            使用序列化深拷贝对象的帮助类
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTDeepCopyHelper.DeepCopyWithXmlSerializer``1(``0)">
+            <summary>
+            利用XML序列化和反序列化实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTDeepCopyHelper.DeepCopyWithBinarySerializer``1(``0)">
+            <summary>
+            利用二进制序列化和反序列实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTDeepCopyHelper.DeepCopyWithDataContractSerializer``1(``0)">
+            <summary>
+            利用DataContractSerializer序列化和反序列化实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTTools.HTEnumHelper">
+            <summary>
+            枚举帮助类
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.GetDescription(System.Enum,System.Boolean)">
+            <summary>
+            获取枚举的描述特性
+            </summary>
+            <param name="value">枚举值</param>
+            <param name="isTop">true:枚举类型/false:枚举值</param>
+            <returns>描述特性文本</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.GetEnumDesc``1(System.Int32)">
+            <summary>
+            返回枚举值的描述信息。枚举需要有描述的关键值
+            </summary>
+            <param name="value">要获取描述信息的枚举值。</param>
+            <returns>枚举值的描述信息。</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.GetEnumValue``1(System.String)">
+            <summary>
+            返回枚举值
+            </summary>
+            <param name="value">枚举值的文本</param>
+            <returns>枚举值</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.GetEnumDesc(System.Enum)">
+            <summary>
+            返回枚举项的描述信息。
+            </summary>
+            <param name="value">要获取描述信息的枚举项。</param>
+            <returns>枚举项的描述信息。</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.GetEnumDescList``1">
+            <summary>
+            获取枚举描述列表，如果没有描述特性，则返回枚举项的名称
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.EnumDescToList``1(System.Boolean,System.String[])">
+            <summary>
+            获取枚举描述列表，并转化为键值对
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="isHasAll">是否包含“全部”</param>
+            <param name="filterItem">过滤项</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTEnumHelper.EnumToList``1(System.Boolean,System.String[])">
+            <summary>
+            获取枚举值列表，并转化为键值对
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="isHasAll">是否包含“全部”</param>
+            <param name="filterItem">过滤项</param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.HTTools.EnumKeyValue">
+            <summary>
+            枚举转换为键值类
+            </summary>形式
+        </member>
+        <member name="P:HYC.HTTools.EnumKeyValue.Key">
+            <summary>
+            键值
+            </summary>
+        </member>
+        <member name="P:HYC.HTTools.EnumKeyValue.Name">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="T:HYC.HTTools.HTInstanceHelper">
+            <summary>
+            系统实例相关工具
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTInstanceHelper.CheckSingleInstance">
+            <summary>
+            应用程序单例模式，检测程序是否已经运行，如果已经运行，则将已运行程序窗口前置，并退出当前进程
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTInstanceHelper.RunningInstance">
+            <summary>
+            获取已经运行的进程
+            </summary>
+            <returns>已运行进程</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTInstanceHelper.HandleRunningInstance(System.Diagnostics.Process)">
+            <summary>
+            使已运行进程窗口前置
+            </summary>
+            <param name="instance"></param>
+        </member>
+        <member name="T:HYC.HTTools.HTSerializeHelper">
+            <summary>
+            序列化帮助类，提供二机制序列化与反序列化，xml序列化请使用HYC.HTFile.HTXML.HTXMLSerializer
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTSerializeHelper.BinarySerialize(System.Object,System.String)">
+            <summary>
+            将类序列化成Binary文件
+            </summary>
+            <param name="obj">类的实例</param>
+            <param name="filename">文件位置及名称</param>
+        </member>
+        <member name="M:HYC.HTTools.HTSerializeHelper.BinaryDeserialize(System.String)">
+            <summary>
+            将Binary文件反序列化成类
+            </summary>
+            <param name="filename">文件位置及名称</param>
+            <returns>类的实例</returns>
+        </member>
+        <member name="T:HYC.HTTools.HTStructHelper">
+            <summary>
+            Struct转数组或数组转Struct
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTStructHelper.StructToBytes(System.Object)">
+            <summary>
+            将结构体转换成byte数组
+            </summary>
+            <param name="structObj">结构体对象</param>
+            <returns>byte数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTStructHelper.BytesToStruct``1(System.Byte[])">
+            <summary>
+            将Byte数组转换为结构体类型
+            </summary>
+            <typeparam name="T">结构体类型</typeparam>
+            <param name="bytes">byte数组</param>
+            <returns>结构体</returns>
+        </member>
+        <member name="T:HYC.HTTools.HTValueConverter">
+            <summary>
+            适用于PLC通信、CIM通信的数据转换类
+            </summary>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.AsciiStringToUshortArray(System.String,System.Int32)">
+            <summary>
+            字符串转ushort数组，字符串长度大于2*length会被截取，小于2*length以空格补齐
+            </summary>
+            <param name="str">输入字符串</param>
+            <param name="length">ushort数组长度</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToAsciiString(System.UInt16[],System.Int32,System.Int32)">
+            <summary>
+            ushort数组转字符串，首尾空格移除
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">起始序号</param>
+            <param name="length">ushort数据长度</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.AsciiStringToUshort(System.String)">
+            <summary>
+            字符串转ushort，最大长度2个字符，不足2个字符补空格
+            </summary>
+            <param name="str">字符串</param>
+            <returns>ushort数据</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortToAsciiString(System.UInt16)">
+            <summary>
+            ushort转字符串，首尾空格移除
+            </summary>
+            <param name="num">ushort数据</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.BoolArrayToUshortArray(System.Boolean[])">
+            <summary>
+            bool数组转ushort数组，16个bool转1个ushort
+            </summary>
+            <param name="srcData">bool数组</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToBoolArray(System.UInt16[],System.Int32,System.Int32)">
+            <summary>
+            ushort数组转bool数组,1个ushort转16个bool
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">起始序号</param>
+            <param name="length">ushort数据长度</param>
+            <returns>bool数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToDateTime(System.UInt16[],System.Int32)">
+            <summary>
+            ushort数组转DateTime，时间存储格式为'yyyyMMddHHmmss'的ASCII码
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">起始序号</param>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.DateTimeToUshortArray(System.Nullable{System.DateTime})">
+            <summary>
+            DateTime转ushort数组，时间存储格式为'yyyyMMddHHmmss'的ASCII码
+            </summary>
+            <param name="datetime">DateTime</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToSingle(System.UInt16[],System.Int32)">
+            <summary>
+            ushort数组转float
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">数组中的起始位置</param>
+            <returns>float数据</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.SingleToUshortArray(System.Single)">
+            <summary>
+            float转ushort数组
+            </summary>
+            <param name="num">float数据</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToInt(System.UInt16[],System.Int32)">
+            <summary>
+            ushort数组转int
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">起始序号</param>
+            <returns>int数据</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.IntToUshortArray(System.Int32)">
+            <summary>
+            int转ushort数组
+            </summary>
+            <param name="num">int数据</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UshortArrayToUint(System.UInt16[],System.Int32)">
+            <summary>
+            ushort数组转uint
+            </summary>
+            <param name="arr">ushort数组</param>
+            <param name="startIndex">起始序号</param>
+            <returns>uint数据</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.UintToUshortArray(System.UInt32)">
+            <summary>
+            uint转ushort数组
+            </summary>
+            <param name="num">uint数据</param>
+            <returns>ushort数组</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.SplitArray``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            分割数组
+            </summary>
+            <param name="Source"></param>
+            <param name="StartIndex"></param>
+            <param name="Length"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.BitsToInt64(System.Boolean[])">
+            <summary>
+            将Bit数组组合成Int64
+            </summary>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.CheckBit(System.Int64,System.Int32)">
+            <summary>
+            判断Int64中某一个Bit的值
+            </summary>
+            <param name="data">Source Data</param>
+            <param name="index">第几个Bit，从低位向高位计算</param>
+            <returns>值为True或False</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.CheckRisingEdge(System.Int64,System.Int64,System.Int32)">
+            <summary>
+            判断数据中某一个Bit是否从0置为1
+            </summary>
+            <param name="oldSt">原始数据</param>
+            <param name="newSt">更新后数据</param>
+            <param name="index">判断第几位，，从低位向高位数</param>
+            <returns>有 -- True 没有--  False</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.CheckTrailingEdge(System.Int64,System.Int64,System.Int32)">
+            <summary>
+            判断数据中某一个Bit是否从1置为0
+            </summary>
+            <param name="oldSt">原始数据</param>
+            <param name="newSt">更新后数据</param>
+            <param name="index">判断第几位，，从低位向高位数</param>
+            <returns>有 -- True 没有--  False</returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.BytesToBools(System.Byte[])">
+            <summary>
+            byte数组转bool列表，一个byte转换为8个位
+            </summary>
+            <param name="datas"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.HTTools.HTValueConverter.BytesToUInt16Array(System.Byte[])">
+            <summary>
+            byte数组转ushort列表
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

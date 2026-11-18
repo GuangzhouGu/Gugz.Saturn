@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.AutoPosition.Extentions</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.AutoPosition.Extentions.CameraImageProducer">
+            <summary>
+            从相机获取图像的图像数据生产者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.CameraImageProducer.#ctor(HYC.HTCamera.GigE.IHTCamera,System.Boolean,System.Drawing.RotateFlipType)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="camera">相机</param>
+            <param name="isUseGrabLock">拍照时是否加锁</param>
+            <param name="rotateFlipType">是否旋转</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.CameraImageProducer.Camera_ImageReceived(System.Object,HYC.HTCamera.GigE.HTCameraEventArgs)">
+            <summary>
+            接收到相机的图像数据
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.CameraImageProducer.CreateImageData">
+            <summary>
+            获取图像数据
+            </summary>
+            <returns>图形数据</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Extentions.FileImageProducer">
+            <summary>
+            从文件获取图像的图像数据生产者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.FileImageProducer.#ctor(System.String)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="fullFileName">图像文件名</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.FileImageProducer.CreateImageData">
+            <summary>
+            获取图像数据
+            </summary>
+            <returns>图形数据</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Extentions.XytMoveExecutor">
+            <summary>
+            使用XYT对位平台的运动执行者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.XytMoveExecutor.#ctor(HYC.HTXYT.Base.XYTPlatform)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="platform">XYT平台类</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Extentions.XytMoveExecutor.Move(System.Int32,System.Double[],System.Int32[])">
+            <summary>
+            移动
+            </summary>
+            <param name="groupIndex">对位组序号</param>
+            <param name="xyt">移动值</param>
+            <param name="reserve">预留</param>
+            <returns>移动是否完成</returns>
+        </member>
+    </members>
+</doc>

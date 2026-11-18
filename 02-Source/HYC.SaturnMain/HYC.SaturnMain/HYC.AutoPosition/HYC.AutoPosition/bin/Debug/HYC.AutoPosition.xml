@@ -1,0 +1,1496 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HYC.AutoPosition</name>
+    </assembly>
+    <members>
+        <member name="T:HYC.AutoPosition.Algorithm.Point3f">
+            <summary>
+            具有XY和Theta的点
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.Point3f.X">
+            <summary>
+            坐标X
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.Point3f.Y">
+            <summary>
+            坐标Y
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.Point3f.T">
+            <summary>
+            角度
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.Point3f.#ctor(System.Single,System.Single,System.Single)">
+            <summary>
+            构造方法
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="t"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.Point3f.IsZero">
+            <summary>
+            是否值全为0
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.Point3f.ToString">
+            <summary>
+            转换为字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.AutoPosCalc">
+            <summary>
+            自动对位结果计算
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.AutoPosCalc.CalcMovePara(System.Int32,HYC.AutoPosition.Algorithm.Point3f[],System.Single[],System.Single[])">
+            <summary>
+            计算运动值
+            </summary>
+            <param name="srcWidth">图像width</param>
+            <param name="points">识别的坐标</param>
+            <param name="para1">输入参数1</param>
+            <param name="para2">输入参数2</param>
+            <returns>xyt值</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.AlgorithmParaDetail">
+            <summary>
+            对位算法参数结构体
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param1">
+            <summary>
+            参数1
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param2">
+            <summary>
+            参数2
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param3">
+            <summary>
+            参数3
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param4">
+            <summary>
+            参数4
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param5">
+            <summary>
+            参数5
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param6">
+            <summary>
+            参数6
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param7">
+            <summary>
+            参数7
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlgorithmParaDetail.param8">
+            <summary>
+            参数8
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.DetectionAlgorithmPos">
+            <summary>
+            对位算法
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.DetectionAlgorithmPos.HT_OnUpdateModuleInfo(System.Int32,HYC.AutoPosition.Algorithm.AlgorithmParaDetail)">
+            <summary>
+            更新参数
+            </summary>
+            <param name="nMember">检测通道</param>
+            <param name="para">算法参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.DetectionAlgorithmPos.HT_OnHandleImage(System.Int32,System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            处理图片
+            </summary>
+            <param name="nMember">检测通道</param>
+            <param name="dataIn">图像数据</param>
+            <param name="nWidth">图像宽</param>
+            <param name="nHeight">图像高</param>
+            <param name="nIndex">第几张图片</param>
+            <param name="nErr">错误代码</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.DetectionAlgorithmPos.HT_OnUpdateImage(System.Int32,System.Byte[],System.Double[],System.Int32[])">
+            <summary>
+            获取结果
+            </summary>
+            <param name="nMember">检测通道</param>
+            <param name="dataOut">输出的图像数据</param>
+            <param name="xyt">输出的xyt结果</param>
+            <param name="reserve">保留</param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.AlignCameraParameter">
+            <summary>
+            对位相机参数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.AlignCameraParameter.CenterPoint">
+            <summary>
+            Camera 对应的旋转中心
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.AlignCameraParameter.Theta">
+            <summary>
+            Camera 与Stage之间的夹角
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlignCameraParameter.ImageSize">
+            <summary>
+            截取ROI的原图的大小
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.AlignCameraParameter.ROI">
+            <summary>
+            ROI区域设置
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.AlignCameraParameter.NROI">
+            <summary>
+            归一化后的ROI区域
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.AlignCameraParameter.TemplateImgs">
+            <summary>
+            模板图像
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.FlowParaDetail">
+            <summary>
+            流程参数
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.FlowParaDetail.ImageSize">
+            <summary>
+            截取ROI的原图的大小
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.FlowParaDetail.ROI">
+            <summary>
+            ROI区域设置
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Algorithm.FlowParaDetail.NROI">
+            <summary>
+            归一化后的ROI区域
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.FlowParaDetail.TemplateImgs">
+            <summary>
+            模板图像
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.ImageProc">
+            <summary>
+            图像处理
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.matchTemplate(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Int32,System.Int32,System.Int32[],System.Int32[])">
+            <summary>
+            模板匹配
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="templateData">模板图像数据</param>
+            <param name="templateWidth">模板图像width</param>
+            <param name="templateHeight">模板图像height</param>
+            <param name="roi">ROI区域</param>
+            <param name="matchRect">匹配结果</param>
+            <returns>模板匹配是否成功</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.findCenter(System.Byte[],System.Int32,System.Int32,System.Int32[],System.Single[])">
+            <summary>
+            查找连通域，输出中心坐标
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="roi">ROI区域</param>
+            <param name="location">连通域中心坐标</param>
+            <returns>处理是否成功</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.findLineCross(System.Byte[],System.Int32,System.Int32,System.Int32[],System.Single[])">
+            <summary>
+            找两条线，计算线的交点
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="roi">ROI区域</param>
+            <param name="location">线的交点及角度</param>
+            <returns>处理是否成功</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.drawRectangle(System.Byte[],System.Int32,System.Int32,System.Int32[],System.Byte[])">
+            <summary>
+            绘制矩形
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="rect">绘制区域</param>
+            <param name="dstData">输出图像数据</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.drawCross(System.Byte[],System.Int32,System.Int32,System.Single,System.Single,System.Single,System.Byte[])">
+            <summary>
+            绘制十字线
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="x">坐标X</param>
+            <param name="y">坐标Y</param>
+            <param name="t">十字线的角度(-90~90)</param>
+            <param name="dstData">输出图像数据</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.cvtColor(System.Byte[],System.Int32,System.Int32,System.Byte[],System.Boolean)">
+            <summary>
+            灰度图转彩色图，或彩色图转灰度图
+            </summary>
+            <param name="srcData"></param>
+            <param name="srcWidth"></param>
+            <param name="srcHeight"></param>
+            <param name="dstData"></param>
+            <param name="toColor"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.rotate(System.Byte[],System.Int32,System.Int32,HYC.AutoPosition.Algorithm.ImageProc.RotateFlags,System.Byte[],System.Int32@,System.Int32@)">
+            <summary>
+            图像旋转
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="rotateCode">旋转方式</param>
+            <param name="dstData">输出图像数据</param>
+            <param name="dstWidth">输出图像width</param>
+            <param name="dstHeight">输出图像height</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Algorithm.ImageProc.flip(System.Byte[],System.Int32,System.Int32,HYC.AutoPosition.Algorithm.ImageProc.FlipFlags,System.Byte[],System.Int32@,System.Int32@)">
+            <summary>
+            图像翻转
+            </summary>
+            <param name="srcData">输入图像数据</param>
+            <param name="srcWidth">输入图像width</param>
+            <param name="srcHeight">输入图像height</param>
+            <param name="flipCode">翻转方式</param>
+            <param name="dstData">输出图像数据</param>
+            <param name="dstWidth">输出图像width</param>
+            <param name="dstHeight">输出图像height</param>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.ImageProc.RotateFlags">
+            <summary>
+            图像旋转标识
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.RotateFlags.ROTATE_90_CLOCKWISE">
+            <summary>
+            Rotate 90 degrees clockwise
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.RotateFlags.ROTATE_180">
+            <summary>
+            Rotate 180 degrees clockwise
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.RotateFlags.ROTATE_90_COUNTERCLOCKWISE">
+            <summary>
+            Rotate 270 degrees clockwise
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Algorithm.ImageProc.FlipFlags">
+            <summary>
+            图像翻转标识
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.FlipFlags.FLIP_X">
+            <summary>
+            沿X轴翻转
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.FlipFlags.FLIP_Y">
+            <summary>
+            沿Y轴翻转
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Algorithm.ImageProc.FlipFlags.FLIP_XY">
+            <summary>
+            沿X轴和Y轴翻转
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Events.ShowMessageArgs">
+            <summary>
+            消息显示事件参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ShowMessageArgs.Text">
+            <summary>
+            文本信息
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ShowMessageArgs.IsError">
+            <summary>
+            是否为异常信息
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Events.ImageReceivedArgs">
+            <summary>
+            对位图像生成事件类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.GroupIndex">
+            <summary>
+            对位组序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.StageIndex">
+            <summary>
+            工位序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.ProcessIndex">
+            <summary>
+            第几次处理
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.ImageType">
+            <summary>
+            图片类型
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.ImageData">
+            <summary>
+            图片数据
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.IsImgTestMode">
+            <summary>
+            图片测试模式只计算，不运动
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.IsGrabTestMode">
+            <summary>
+            拍照测试模式只计算，不运动，保存拍照图像
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.IsManualMode">
+            <summary>
+            手动模式
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.XYT">
+            <summary>
+            运动数据
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.Reserve">
+            <summary>
+            算法备用输出值
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Events.ImageReceivedArgs.IsProcessedNG">
+            <summary>
+            图像处理NG
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Events.ImageType">
+            <summary>
+            图片类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Events.ImageType.Original">
+            <summary>
+            原始图
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Events.ImageType.Processed">
+            <summary>
+            处理图
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.LanguageHelper.Msg">
+            <summary>
+            消息文本定义
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Helper.LanguageHelper.SetLanguage(System.String)">
+            <summary>
+            修改语言
+            </summary>
+            <param name="lang">待设置语言</param>
+        </member>
+        <member name="T:HYC.AutoPosition.Helper.MsgDef">
+            <summary>
+            消息文本，默认语言
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.AutoPosStarted">
+            <summary>
+            自动对位开始
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.AutoPosCompleted">
+            <summary>
+            自动对位结束
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.AutoPosError">
+            <summary>
+            自动对位异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.CalibrationStarted">
+            <summary>
+            自动标定开始
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.CalibrationResult">
+            <summary>
+            自动标定结果
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.CalibrationCompleted">
+            <summary>
+            自动标定结束
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.CalibrationError">
+            <summary>
+            自动标定异常
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.BeforeAdjust">
+            <summary>
+            调整前
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.AfterAdjust">
+            <summary>
+            调整后
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.MoveFailed">
+            <summary>
+            运动失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.ThetaMoveSkip">
+            <summary>
+            Theta运动跳过
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.ThetaMoveFailed">
+            <summary>
+            Theta运动失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.XYMoveFailed">
+            <summary>
+            XY运动失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.AfterThetaAdjust">
+            <summary>
+            Theta调整后
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.GetImagesFailed">
+            <summary>
+            获取图像失败
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Helper.MsgDef.DistanceOverLimit">
+            <summary>
+            运动距离超限制
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Helper.MsgDef.SetToEnglish">
+            <summary>
+            设置成英文
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Helper.DeepCopyHelper">
+            <summary>
+            使用序列化深拷贝对象的帮助类
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Helper.DeepCopyHelper.DeepCopyWithXmlSerializer``1(``0)">
+            <summary>
+            利用XML序列化和反序列化实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Helper.DeepCopyHelper.DeepCopyWithBinarySerializer``1(``0)">
+            <summary>
+            利用二进制序列化和反序列实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Helper.DeepCopyHelper.DeepCopyWithDataContractSerializer``1(``0)">
+            <summary>
+            利用DataContractSerializer序列化和反序列化实现对象的深拷贝
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.IImageProducer">
+            <summary>
+            图像数据生产者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.IImageProducer.CreateImageData">
+            <summary>
+            获取图像数据
+            </summary>
+            <returns>图形数据</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.IMoveExecutor">
+            <summary>
+            运动执行者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.IMoveExecutor.Move(System.Int32,System.Double[],System.Int32[])">
+            <summary>
+            移动
+            </summary>
+            <param name="groupIndex">对位组序号</param>
+            <param name="xyt">移动值</param>
+            <param name="reserve">预留</param>
+            <returns>移动是否完成</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.ISignalProvider">
+            <summary>
+            信号提供者
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.ISignalProvider.AutoPosCompleted(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            自动对位完成
+            </summary>
+            <param name="groupIndex">对位组序号</param>
+            <param name="stageIndex">工位序号</param>
+            <param name="result">对位结果</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.ISignalProvider.CalibrationCompleted(System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            自动标定完成
+            </summary>
+            <param name="groupIndex">对位组序号</param>
+            <param name="stageIndex">工位序号</param>
+            <param name="result">标定结果</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.ISignalProvider.MoveCompleted(System.Int32,HYC.AutoPosition.Interface.MoveReqType,System.Boolean)">
+            <summary>
+            运动完成
+            </summary>
+            <param name="groupIndex">对位组序号</param>
+            <param name="type">请求运动的类型</param>
+            <param name="result">运动结果</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.ISignalProvider.UpdatePlatformStatus(System.Int32,HYC.AutoPosition.Interface.PlatformStatus)">
+            <summary>
+            更新对位平台状态
+            </summary>
+            <param name="platIndex">平台序号</param>
+            <param name="status">平台状态</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Interface.ISignalProvider.UpdateCameraStatus(System.Int32,System.Boolean)">
+            <summary>
+            更新相机状态
+            </summary>
+            <param name="cameraIndex">相机序号</param>
+            <param name="isConnected">连接状态</param>
+        </member>
+        <member name="E:HYC.AutoPosition.Interface.ISignalProvider.AutoPosRequest">
+            <summary>
+            自动对位请求
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.Interface.ISignalProvider.CalibrationRequest">
+            <summary>
+            自动标定请求
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.Interface.ISignalProvider.MoveRequest">
+            <summary>
+            运动请求
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.Interface.ISignalProvider.SafetyChanged">
+            <summary>
+            安全条件变化
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.RequestEventArgs">
+            <summary>
+            信号请求参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestEventArgs.GroupIndex">
+            <summary>
+            对位组序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestEventArgs.StageIndex">
+            <summary>
+            工位序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestEventArgs.DetectMode">
+            <summary>
+            检测模式 0：Mark图片 1：目标位图片
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestByDataEventArgs.RequestEventArgs">
+            <summary>
+            信号请求参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestByDataEventArgs.RawData">
+            <summary>
+             原始数据
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.RequestByDataEventArgs.AgingData">
+            <summary>
+            老化后数据
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.MoveReqEventArgs">
+            <summary>
+            运动请求参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.MoveReqEventArgs.GroupIndex">
+            <summary>
+            对位组序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.MoveReqEventArgs.MoveReqType">
+            <summary>
+            请求运动的类型
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.SafetyEventArgs">
+            <summary>
+            对位平台的安全条件改变的参数类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.SafetyEventArgs.GroupIndex">
+            <summary>
+            对位组序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.SafetyEventArgs.IsSaveToMove">
+            <summary>
+            移动是否安全
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.MoveReqType">
+            <summary>
+            运动请求类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Interface.MoveReqType.Home">
+            <summary>
+            原点
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Interface.MoveReqType.UserPos1">
+            <summary>
+            用户位置1
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Interface.MoveReqType.UserPos2">
+            <summary>
+            用户位置2
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Interface.MoveReqType.UserPos3">
+            <summary>
+            用户位置3
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Interface.PlatformStatus">
+            <summary>
+            同步给信号提供者的对位平台状态
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.PlatformStatus.IsServoOn">
+            <summary>
+            是否使能
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.PlatformStatus.IsAtHome">
+            <summary>
+            是否在原点
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.PlatformStatus.IsAtUserPos">
+            <summary>
+            是否在用户设定位置
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Interface.PlatformStatus.IsAlarm">
+            <summary>
+            是否有报警
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.AutoPosManager">
+            <summary>
+            自动对位管理类
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.AutoPosManager.recipeManager">
+            <summary>
+            机种管理类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.AutoPosManager.StageCount">
+            <summary>
+            工位数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.AutoPosManager.CurRecipe">
+            <summary>
+            当前机种
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.GetRecipes">
+            <summary>
+            获取所有机种
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.Init(System.String,System.Int32)">
+            <summary>
+            初始化参数
+            </summary>
+            <param name="recipeName">机种名</param>
+            <param name="stageCount">工位数</param>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.UpdateModuleInfo(HYC.AutoPosition.Recipes.Recipe)">
+            <summary>
+            更新参数给算法
+            </summary>
+            <param name="recipe"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.CreateNewRecipeFrom(System.String,System.String)">
+            <summary>
+            从旧机种创建新机种
+            </summary>
+            <param name="recipeIDOld">旧机种名</param>
+            <param name="recipeIDNew">新机种名</param>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.DeleteRecipe(System.String)">
+            <summary>
+            删除机种
+            </summary>
+            <param name="recipeID">机种名</param>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.SetLanguage(System.String)">
+            <summary>
+            设置语言
+            </summary>
+            <param name="language"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.StartAutoPosAsync(HYC.AutoPosition.Parameter.WorkFlowPara)">
+            <summary>
+            创建对位工作流程
+            </summary>
+            <param name="para">对位流程参数</param>
+            <returns>对位结果</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.StartManualPosAsync(HYC.AutoPosition.Parameter.WorkFlowPara)">
+            <summary>
+            创建对位工作流程
+            </summary>
+            <param name="para">对位流程参数</param>
+            <returns>对位结果</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.AutoPosManager.StartCalibrationAsync(HYC.AutoPosition.Parameter.WorkFlowPara)">
+            <summary>
+            创建标定工作流程
+            </summary>
+            <param name="para">标定流程参数</param>
+            <returns>标定结果</returns>
+        </member>
+        <member name="E:HYC.AutoPosition.AutoPosManager.ImageReceived">
+            <summary>
+            接收到图像数据
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.AlignLimit">
+            <summary>
+            对位极限参数
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.AlignParameter">
+            <summary>
+            对位系统参数
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.AlignParameter.MatchingRateLimitCamera">
+            <summary>
+            匹配率设定 0 -- Left Camera  1 -- Right Camera
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.AlignParameter.AlignLimits">
+            <summary>
+            对位极限 0 -- OK限值， 1 -- Over Range 限值
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.AlignParameter.Serialize(System.String)">
+            <summary>
+            序列化参数到文件中
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.AlignParameter.Unserialize(System.String)">
+            <summary>
+            从文件中反序列化
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.AlignROI">
+            <summary>
+            对位ROI信息
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROI.MarkROI">
+            <summary>
+            实际截取时针对ROI的区域
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROI.AreaROI">
+            <summary>
+            实际ROI的需要寻找的区域
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROI.CenterPoint">
+            <summary>
+            对位时实际使用的中心
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROI.ROIImageFilePath">
+            <summary>
+            ROI图片的位置
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.AlignROIArray">
+            <summary>
+            多组ROI集合
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROIArray.AlignROIs">
+            <summary>
+            多组ROI
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROIArray.ImageSize">
+            <summary>
+            截取ROI时，图片的大小
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROIArray.ImageFilePath">
+            <summary>
+            原始图片的位置
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.AlignROIArray.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.AlignROIArray.Serialize(System.String)">
+            <summary>
+            序列化参数到文件中
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.AlignROIArray.Unserialize(System.String)">
+            <summary>
+            从文件中反序列化
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.AlignROIArray.Item(System.Int32)">
+            <summary>
+            索引器
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.CameraInformation">
+            <summary>
+            Ïà»ú²ÎÊý
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.CenterPoint">
+            <summary>
+            Camera Rotate CenterPoint
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.Theta">
+            <summary>
+            Camera and stage theta
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.ResolutionX">
+            <summary>
+            X Axis Resolution unit mm
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.ResolutionY">
+            <summary>
+            Y Axis Resolution unit mm
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.PixelX">
+            <summary>
+            X Axis Pixel
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.PixelY">
+            <summary>
+            Y Axis Pixel
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.FOVX">
+            <summary>
+            X Axis FOV
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformation.FOVY">
+            <summary>
+            Y Axis FOV
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformation.CaculateCameraTheta(System.Drawing.PointF,System.Drawing.PointF,System.Double,System.Double)">
+            <summary>
+            计算Camera和运动平台之间的夹角
+            </summary>
+            <param name="originPoint">原始点位</param>
+            <param name="movedPoint">移动后点位</param>
+            <param name="deltaX">X偏移量</param>
+            <param name="deltaY">Y偏移量</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformation.CaculateRotatedCenterPoint(System.Drawing.PointF,System.Drawing.PointF,System.Double)">
+            <summary>
+            ¼ÆËãÐý×ªÖÐÐÄ
+            </summary>
+            <param name="rotatedPoint1">µÚÒ»´ÎÐý×ªºóµÄµã</param>
+            <param name="rotatedPoint2">µÚ¶þ´ÎÐý×ªºóµÄµã</param>
+            <param name="angele">µÚÒ»´Îµ½µÚ¶þ´ÎÖ®¼äµÄ½Ç¶È²î</param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformation.CaculationXYT(System.Drawing.PointF,System.Drawing.PointF,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="originPoint"></param>
+            <param name="movedPoint"></param>
+            <param name="movedTheta"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformation.CaculateRealPoint(System.Drawing.PointF,System.Drawing.PointF)">
+            <summary>
+            ÐÞÕýCameraºÍÆ½Ì¨µÄ¼Ð½Ç
+            </summary>
+            <param name="originPoint"></param>
+            <param name="movedPoint"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.CameraInformationArray">
+            <summary>
+            Ïà»úÐÅÏ¢Êý×é£¬ÔÝÊ±½ö½öÖ§³ÖÁ½¸öÏà»ú
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformationArray.CameraInformations">
+            <summary>
+            Camera Informations
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformationArray.CameraOption">
+            <summary>
+            Camera Calibration Parameter
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformationArray.DefaultAngle">
+            <summary>
+            采用双相机时，需要测量两个相机的中心点与Stage平台的初始夹角。
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.CameraInformationArray.UseSameAngle">
+            <summary>
+            相机1和相机2使用同一个角度
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformationArray.CaculateRealAngle(HYC.AutoPosition.Parameter.Point3D,HYC.AutoPosition.Parameter.Point3D)">
+            <summary>
+            Caculate Real Angle
+            </summary>
+            <param name="pt1"></param>
+            <param name="pt2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformationArray.Serialize(System.String)">
+            <summary>
+            ÐòÁÐ»¯²ÎÊýµ½ÎÄ¼þÖÐ
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.CameraInformationArray.Unserialize(System.String)">
+            <summary>
+            ´ÓÎÄ¼þÖÐ·´ÐòÁÐ»¯
+            </summary>
+            <param name="fileName"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.CameraOption">
+            <summary>
+            Camera Auto Calibration Value
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.CameraOption.DeltaX">
+            <summary>
+            X Axis Offset mm
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.CameraOption.DeltaY">
+            <summary>
+            Y Axis Offset mm
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.CameraOption.DeltaTheta">
+            <summary>
+            Theta Axis Offset mm
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.ImageData">
+            <summary>
+            图像数据封装
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.ImageData.ImageBytes">
+            <summary>
+            图像字节数组
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.ImageData.Width">
+            <summary>
+            图像的Width
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.ImageData.Height">
+            <summary>
+            图像的Height
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.ImageData.ToBitmap">
+            <summary>
+            将字节数组转换为Bitmap对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.ImageData.FromBitmap(System.Drawing.Bitmap)">
+            <summary>
+            将Bitmap对象转换为字节数组
+            </summary>
+            <param name="bitmap"></param>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.MoveFlowType">
+            <summary>
+            对位流程中的平台运动类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveFlowType.OnceAllAxis">
+            <summary>
+            所有轴一起运动
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveFlowType.ThetaFirst">
+            <summary>
+            先走T，再走XY
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.MoveType">
+            <summary>
+            平台运动类型
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveType.All">
+            <summary>
+            全部轴
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveType.X">
+            <summary>
+            X轴
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveType.Y">
+            <summary>
+            Y轴
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveType.Theta">
+            <summary>
+            Theta轴
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Parameter.MoveType.XY">
+            <summary>
+            X轴和Y轴
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.WorkFlowPara">
+            <summary>
+            工作流程参数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.ImageProducers">
+            <summary>
+            图像生产者
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.MoveExecutor">
+            <summary>
+            运动执行者
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.GroupIndex">
+            <summary>
+            对位组序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.StageIndex">
+            <summary>
+            工位序号
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.DetectMode">
+            <summary>
+            检测模式 0：Mark图片 1：目标位图片
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsImgTestMode">
+            <summary>
+            图片测试模式只计算，不运动
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsGrabTestMode">
+            <summary>
+            拍照测试模式只计算，不运动，保存拍照图像
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsManualMode">
+            <summary>
+            手动模式
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.RetryLimitCount">
+            <summary>
+            失败重试次数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.MoveFlowType">
+            <summary>
+            运动模式
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsSwapXY">
+            <summary>
+            是否交换XY
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsConfirmRequired">
+            <summary>
+            运动完成后需要确认
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.ThreXYT">
+            <summary>
+            XYT对位成功的判定阈值
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsAlgorithmShield">
+            <summary>
+            是否算法屏蔽
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.IsOutputColorMode">
+            <summary>
+            算法输出的为彩色图
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowPara.MaxMoveDistance">
+            <summary>
+            最大移动步距
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Parameter.WorkFlowResult">
+            <summary>
+            工作流程结果
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowResult.Result">
+            <summary>
+            是否对位成功
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowResult.ProcessingTime">
+            <summary>
+            对位耗时
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Parameter.WorkFlowResult.ErrorMsg">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Parameter.WorkFlowResult.ToString">
+            <summary>
+            转换成字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Recipes.Recipe">
+            <summary>
+            机种类
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Recipes.Recipe.Location">
+            <summary>
+            Recipe文件夹路径
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.Recipe.AlignParameter">
+            <summary>
+            对位极限 参数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Recipes.Recipe.UpdateTime">
+            <summary>
+            机种更新时间
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.Recipe.DataPos">
+            <summary>
+            对位机种数据
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.Recipe.ReadDataPos(System.Int32)">
+            <summary>
+            读取对位机种数据
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.Recipe.SaveDataPos(System.Int32)">
+            <summary>
+            保存对位机种数据
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.Recipe.AlignParameterSerialize">
+            <summary>
+            相机参数序列化
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Recipes.RecipeBase.RecipeID">
+            <summary>
+            机种名称
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Recipes.RecipeBase.PPID">
+            <summary>
+            PPID
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Recipes.RecipeBase.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:HYC.AutoPosition.Recipes.RecipeDataPos">
+            <summary>
+            对位机种数据
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeDataPos.index">
+            <summary>
+            第几组对位
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeDataPos.AlgorithmData">
+            <summary>
+            对位参数
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeDataPos.FlowPara">
+            <summary>
+            流程参数
+            </summary>      
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeDataPos.InitData(System.Int32)">
+            <summary>
+            初始化对位参数
+            </summary>
+            <param name="index">第几组对位</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeDataPos.ReadData(System.String)">
+            <summary>
+            读取数据
+            </summary>
+            <param name="strLocation">机种目录</param>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeDataPos.SaveData(System.String)">
+            <summary>
+            保存数据
+            </summary>
+            <param name="strLocation">机种目录</param>
+        </member>
+        <member name="T:HYC.AutoPosition.Recipes.RecipeManager">
+            <summary>
+            机种管理类
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeManager.lstRecipe">
+            <summary>
+            机种列表
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeManager.CurRecipe">
+            <summary>
+            当前机种
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeManager.FilePath">
+            <summary>
+            机种文件路径
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Recipes.RecipeManager.IsRecipeSelected">
+            <summary>
+            机种是否已选择
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeManager.LoadRecipeList">
+            <summary>
+            加载机种列表
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeManager.GetRecipes">
+            <summary>
+            获取所有机种
+            </summary>
+            <returns>机种列表</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Recipes.RecipeManager.GetRecipeByName(System.String)">
+            <summary>
+            根据机种名称获取机种
+            </summary>
+            <param name="name">机种名</param>
+            <returns>机种实例</returns>
+        </member>
+        <member name="T:HYC.AutoPosition.Class.WorkFlow">
+            <summary>
+            工作流程
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Class.WorkFlow.para">
+            <summary>
+            工作流程参数
+            </summary>
+        </member>
+        <member name="P:HYC.AutoPosition.Class.WorkFlow.CurRecipe">
+            <summary>
+            当前机种
+            </summary>
+        </member>
+        <member name="F:HYC.AutoPosition.Class.WorkFlow.reworkXyt">
+            <summary>
+            重试时，保存的拍照确认的值
+            </summary>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.CalibrationDoWork(HYC.AutoPosition.Parameter.WorkFlowPara)">
+            <summary>
+            开始执行标定流程
+            </summary>
+            <param name="para">标定参数</param>
+            <returns>标定结果</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.ProcessOnce(System.Int32,System.Boolean)">
+            <summary>
+            单次对位流程
+            </summary>
+            <param name="processIndex">第几次处理</param>
+            <returns>是否对位成功</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.GetMovePara(System.Int32,System.Int32[],System.Boolean)">
+            <summary>
+            调用算法，获取运动参数
+            </summary>
+            <param name="processIndex">第几次处理</param>
+            <param name="reserve">预留</param>
+            <returns>算法反馈的xyt运动数据</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.Move(HYC.AutoPosition.Parameter.MoveType,System.Double[],System.Int32[])">
+            <summary>
+            执行运动
+            </summary>
+            <param name="type">移动类型</param>
+            <param name="xyt">移动距离</param>
+            <param name="reserve">预留</param>
+            <returns>运动是否成功</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.CheckMoveDistance(System.Double[],HYC.AutoPosition.Parameter.MoveType)">
+            <summary>
+            检查移动步距
+            </summary>
+            <param name="xyt">移动距离</param>
+            <param name="type">移动类型</param>
+            <returns>移动距离是否在设定范围内</returns>
+        </member>
+        <member name="M:HYC.AutoPosition.Class.WorkFlow.ShowMessage(System.String,System.Boolean)">
+            <summary>
+            显示消息
+            </summary>
+            <param name="text">文本</param>
+            <param name="isError">是否为异常信息</param>
+        </member>
+        <member name="E:HYC.AutoPosition.Class.WorkFlow.ImageReceived">
+            <summary>
+            接收到图像数据
+            </summary>
+        </member>
+        <member name="E:HYC.AutoPosition.Class.WorkFlow.MessageShown">
+            <summary>
+            显示消息
+            </summary>
+        </member>
+    </members>
+</doc>

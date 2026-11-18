@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DFS", "DFS.csproj", "{A3285975-7849-4BCC-A6F3-75A053982987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDFS", "..\TestDFS\TestDFS.csproj", "{7D7F3838-5F98-4809-8916-EE3D1EA5FB0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3285975-7849-4BCC-A6F3-75A053982987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7F3838-5F98-4809-8916-EE3D1EA5FB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7F3838-5F98-4809-8916-EE3D1EA5FB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7F3838-5F98-4809-8916-EE3D1EA5FB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7F3838-5F98-4809-8916-EE3D1EA5FB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C70144E-2D71-44CF-9099-DCFEA9BA364E}
+	EndGlobalSection
+EndGlobal
